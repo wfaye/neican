@@ -1,0 +1,2955 @@
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	float: none;
+}
+
+.row .onecol,.row .twocol,.row .threecol,.row .fourcol,.row .fivecol,.row .sixcol,.row .sevencol,.row .eightcol,.row .ninecol,.row .tencol,.row .elevencol
+	{
+	margin-right: 3.8%;
+	float: left;
+	min-height: 1px;
+}
+
+.row .onecol {
+	width: 4.85%;
+}
+
+.row .twocol {
+	width: 13.45%;
+}
+
+.row .threecol {
+	width: 22.05%;
+}
+
+.row .fourcol {
+	width: 30.75%;
+}
+
+.row .fivecol {
+	width: 39.45%;
+}
+
+.row .sixcol {
+	width: 48%;
+}
+
+.row .sevencol {
+	width: 56.75%;
+}
+
+.row .eightcol {
+	width: 65.4%;
+}
+
+.row .ninecol {
+	width: 74.05%;
+}
+
+.row .tencol {
+	width: 82.7%;
+}
+
+.row .elevencol {
+	width: 91.35%;
+}
+
+.row .twelvecol {
+	width: 100%;
+	float: left;
+}
+
+.row .last {
+	margin-right: 0;
+}
+
+.noleftpadding {
+	padding-left: 0;
+}
+
+.norightpadding {
+	padding-right: 0;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.tour-marker {
+	color: #333;
+	float: left;
+	height: auto;
+	left: 500px;
+	position: absolute;
+	top: 223px;
+	width: 300px;
+	z-index: 1001;
+}
+
+.tour-marker .left-marker-left {
+	background: url("/iv/common/styles/images/tour-left.png") no-repeat
+		scroll left top transparent;
+	float: left;
+	height: 62px;
+	width: 60px;
+	margin-top: -1px;
+}
+
+.tour-marker .left-marker-right {
+	background: url("/iv/common/styles/images/right-corner.png") no-repeat
+		scroll left top transparent;
+	float: right;
+	height: 28px;
+	margin-top: 3px;
+	width: 32px;
+}
+
+.left-marker-left .left-mid-left {
+	background: url("/iv/common/styles/images/left-gradient.png") repeat-y
+		scroll left top #fff;
+	float: left;
+	height: 50px;
+	left: 32px;
+	position: relative;
+	top: 58px;
+	width: 28px;
+}
+
+.left-marker-right .left-mid-right {
+	background: url("/iv/common/styles/images/right-gradient.png") repeat-y
+		scroll right top #fff;
+	float: left;
+	height: 74px;
+	left: -2px;
+	position: relative;
+	top: 24px;
+	width: 100%;
+}
+
+.left-marker-center {
+	background: url("/iv/common/styles/images/top-gradient.png") repeat-x
+		scroll left top #fff;
+	float: left;
+	height: 100px;
+	margin-top: 4px;
+	width: 208px;
+}
+
+.left-marker-center .left-content {
+	float: left;
+	width: 100%;
+}
+
+.tour-marker .marker-bottom {
+	background: url("/iv/common/styles/images/bottom-left.png") no-repeat
+		scroll left top transparent;
+	float: right;
+	height: 30px;
+	margin: -1px 2px 0 0;
+	width: 267px;
+}
+
+.tour-marker .marker-bottom .marker-bottom-right {
+	background: url("/iv/common/styles/images/bottom-right.png") no-repeat
+		scroll right top transparent;
+	float: right;
+	height: 30px;
+	margin-top: -3px;
+	width: 30px;
+}
+
+.tour-marker .marker-bottom .marker-bottom-mid {
+	background: url("/iv/common/styles/images/bottom-gradient.png") repeat-x
+		scroll left bottom #fff;
+	float: left;
+	height: 100%;
+	margin: -3px 0 0 23px;
+	width: 214px;
+}
+
+.tour-marker .right-marker-left {
+	background: url("/iv/common/styles/images/top-left.png") no-repeat
+		scroll left top transparent;
+	float: left;
+	height: 26px;
+	margin-top: 3px;
+	width: 30px;
+}
+
+.tour-marker .right-marker-right {
+	background: url("/iv/common/styles/images/tour-right.png") no-repeat
+		scroll left top transparent;
+	float: right;
+	height: 70px;
+	margin-top: -5px;
+	width: 65px;
+}
+
+.right-marker-left .right-mid-left {
+	background: url("/iv/common/styles/images/left-gradient.png") repeat-y
+		scroll left top #fff;
+	float: left;
+	height: 70px;
+	left: 1px;
+	position: relative;
+	top: 26px;
+	width: 30px;
+}
+
+.right-marker-right .right-mid-right {
+	background: url("/iv/common/styles/images/right-gradient.png") repeat-y
+		scroll right top #fff;
+	float: left;
+	height: 35px;
+	left: 0;
+	position: relative;
+	top: 66px;
+	width: 35px;
+}
+
+.right-marker-center {
+	background: url("/iv/common/styles/images/top-gradient.png") repeat-x
+		scroll left top #fff;
+	float: left;
+	height: 95px;
+	margin-top: 4px;
+	width: 205px;
+}
+
+.right-marker-center .right-content {
+	float: left;
+	padding: 1px;
+	width: 100%;
+}
+
+.tour-marker .right-marker-bottom {
+	background: url("/iv/common/styles/images/bottom-left.png") no-repeat
+		scroll left top transparent;
+	float: left;
+	height: 30px;
+	margin: -1px 2px 0 0;
+	width: 270px;
+}
+
+.tour-marker .right-marker-bottom .right-marker-bottom-right {
+	background: url("/iv/common/styles/images/bottom-right.png") no-repeat
+		scroll right top transparent;
+	float: right;
+	height: 30px;
+	margin-top: -2px;
+	width: 30px;
+}
+
+.tour-marker .right-marker-bottom .right-marker-bottom-mid {
+	background: url("/iv/common/styles/images/bottom-gradient.png") repeat-x
+		scroll left bottom #fff;
+	float: left;
+	height: 100%;
+	margin: -2px 0 0 29px;
+	width: 211px;
+}
+
+.tour-text {
+	float: left;
+	width: 100%;
+	margin: 20px 0 5px 0;
+}
+
+#getStarted-tour {
+	float: left;
+	height: 130px;
+	margin: 0 10px 0 15px;
+	width: 280px;
+}
+
+#get-screen-name {
+	float: left;
+	height: 155px;
+	margin: 0 10px 0 15px;
+	width: 280px;
+}
+
+#end-of-tour {
+	float: left;
+	height: 130px;
+	margin: 0 10px 0 15px;
+	width: 350px;
+}
+
+#getStarted-tour h2,#end-of-tour h2,#get-screen-name h2 {
+	float: left;
+	margin: 0 0 10px;
+	text-align: left;
+}
+
+.tour-margin-fix {
+	height: 1px;
+	margin: 5px 0 5px 0;
+}
+
+#getStarted-tour p,#end-of-tour p,#get-screen-name p {
+	padding: 0;
+	margin: 6px 0;
+	text-align: left;
+	float: left;
+	color: #333;
+	width: 100%;
+}
+
+.tour-control {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	height: 30px;
+}
+
+.tour-control .control-seprator {
+	float: right;
+}
+
+.tour-control .start {
+	margin-left: 95px;
+}
+
+.tour-control .endTour {
+	margin-left: 140px;
+}
+
+#right-next-tour,#right-cancel-tour,#right-next-tour,#left-next-tour,#left-cancel-tour,#go-to-next-tour,#cancel-and-stay
+	{
+	float: right;
+	margin: 0 5px 0 5px;
+	padding: 0;
+}
+
+.tour-screenshot {
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+.make-it-close {
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.tour-marker-hooks {
+	background: none repeat scroll 0 0;
+	float: left;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	width: 95px;
+	z-index: 1010;
+}
+
+.tour-title-text {
+	color: #900;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.tour-message-text {
+	color: #333;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.sub-title-12 {
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.link {
+	color: #069;
+	float: left;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #069;
+	text-decoration: none;
+}
+
+.link:visited {
+	color: #069;
+	text-decoration: none;
+}
+
+.pipe-link {
+	color: #666;
+	font-size: 11px;
+}
+
+.pipe-link a {
+	margin-top: 1px;
+	color: #999;
+	text-decoration: none;
+}
+
+.pipe-link a:hover {
+	color: #999;
+	text-decoration: underline;
+}
+
+#followCont {
+	float: right;
+	height: 25px;
+	width: 95px;
+	margin-top: 10px;
+	margin-right: 14px;
+}
+
+.following-exec {
+	background-image: url("/iv/common/styles/images/Following.png");
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: 25px;
+	margin-top: -5px;
+	padding: 3px;
+	width: 95px;
+	font-color: #333;
+	float: right;
+	cursor: pointer;
+	margin-right: 2px;
+}
+
+.following-exec span {
+	margin-left: 28px;
+	margin-top: 4px;
+	float: left;
+	font-color: #333;
+	cursor: pointer;
+}
+
+.unfollow-exec {
+	background-image: url("/iv/common/styles/images/Unfollow.png");
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: 25px;
+	margin-top: -5px;
+	padding: 3px;
+	width: 95px;
+	font-color: #333;
+	float: right;
+	cursor: pointer;
+	margin-right: 2px;
+}
+
+.unfollow-exec span {
+	margin-left: 30px;
+	margin-top: 4px;
+	float: left;
+	cursor: pointer;
+	font-color: #333;
+}
+
+.follow-exec {
+	background-image: url("/iv/common/styles/images/Follow.png");
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: 25px;
+	margin-top: -5px;
+	padding: 3px;
+	width: 95px;
+	font-color: #333;
+	float: right;
+	cursor: pointer;
+	margin-right: 2px;
+}
+
+.follow-exec span {
+	margin-left: 35px;
+	margin-top: 4px;
+	float: left;
+	cursor: pointer;
+	font-color: #333;
+}
+
+.limit-text {
+	float: left;
+	margin-left: 35px;
+}
+
+.limit-text span {
+	float: left;
+	margin-top: -25px;
+	padding-bottom: 10px;
+}
+
+.following-exec-list {
+	background-image: url("/iv/common/styles/images/followSprite.png");
+	background-position: 0 -26px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: right;
+	font-family: Arial;
+	font-weight: bold;
+	height: 23px;
+	margin-top: -5px;
+	padding: 3px !important;
+	width: 100px;
+}
+
+.following-exec-list span {
+	cursor: pointer;
+	float: left;
+	margin-left: 28px;
+	margin-top: 4px;
+}
+
+.follow-exec-list {
+	background-image: url("/iv/common/styles/images/followSprite.png");
+	background-position: 0 1px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: right;
+	font-family: Arial;
+	font-weight: bold;
+	height: 23px;
+	margin-top: -5px;
+	padding: 3px !important;
+	width: 98px;
+}
+
+.follow-exec-list span {
+	color: #333;
+	cursor: pointer;
+	float: left;
+	margin-left: 35px;
+	margin-top: 4px;
+}
+
+.following-exec-list div.follow {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.follow-exec-list div.follow {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.track_arrow_sprites {
+	background-position: -40px -27px;
+	cursor: pointer;
+	float: left;
+	font-size: 1px;
+	height: 5px;
+	margin: 5px 0 0 5px;
+	width: 8px;
+}
+
+ul.menu {
+	cursor: default;
+	list-style: none outside none;
+}
+
+.emp-details-container {
+	float: left;
+	width: 100%;
+	font-family: Arial;
+	color: #333;
+	margin-top: -10px;
+}
+
+.export {
+	float: right;
+	margin: 12px 10px 0 13px;
+}
+
+.export a {
+	color: #069;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.export a span:hover {
+	text-decoration: underline;
+}
+
+.export a img {
+	background: #fff;
+	vertical-align: middle;
+}
+
+.export a span {
+	vertical-align: middle;
+	margin: 2px 0 0 4px;
+}
+
+.notTheRightPerson {
+	text-align: right;
+}
+
+.notTheRightPerson a {
+	color: #828282;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.notTheRightPerson a:hover {
+	text-decoration: underline;
+}
+
+.contactingLinkedIn {
+	text-align: center;
+}
+
+.contactingLinkedIn span {
+	font-size: 13px;
+}
+
+.image-container {
+	float: left;
+	margin-right: 10px;
+}
+
+.contact-details {
+	margin-top: 10px;
+	clear: both;
+}
+
+.contact-description {
+	margin-top: 10px;
+	clear: both;
+	margin-right: 10px;
+}
+
+.contact-description .more {
+	font-size: 11px;
+	color: #999;
+	float: none;
+	text-decoration: none;
+}
+
+.company-link>* {
+	float: left;
+}
+
+.company-link #view-colleagues {
+	color: #999;
+	padding-top: 1px;
+}
+
+.company-link #company_tooltip {
+	width: auto;
+}
+
+.company-loc {
+	clear: both;
+}
+
+#linkedin_profile_container {
+	display: block;
+	border: 1px solid #ccc;
+	background-color: #f6f6f6;
+	margin: 10px 0;
+	width: auto;
+}
+
+#linkedin_profile {
+	display: block;
+	margin: 5px 5px;
+}
+
+.contact-social {
+	margin: 0 5px;
+}
+
+.social-links-cont {
+	margin-bottom: 3px;
+}
+
+.social-title {
+	color: #666;
+	float: left;
+	font-size: 11px;
+	margin-left: 1px;
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.social-link {
+	float: left;
+}
+
+.social-link img {
+	float: left;
+	padding-top: 2px;
+}
+
+.social-link a {
+	float: left;
+	padding: 0 0 0 2px;
+}
+
+.details .detail,.details .detail-content,.details .detail-type {
+	margin-bottom: 5px;
+}
+
+.details .detail {
+	margin-left: 10px;
+}
+
+.grey-cont .content {
+	background-color: #f3f3f3;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	float: left;
+	margin-top: -4px;
+	padding: 2px 5px;
+	width: 323px;
+}
+
+.linked-in {
+	margin: 0;
+}
+
+.linkedinLabelText {
+	margin-top: 2px;
+}
+
+.linked-in-title {
+	width: 100%;
+	font-weight: bold;
+}
+
+.linked-in-title img {
+	margin-right: 9px;
+	margin-left: 5px;
+	margin-top: 1px;
+}
+
+.linkedinLabel {
+	margin-right: 5px;
+	margin-left: 2px;
+	float: right;
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.linkedinView {
+	cursor: pointer;
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.linkedinView:hover {
+	text-decoration: underline;
+}
+
+.contact-web-refs {
+	float: right;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.web-refs-cont {
+	float: right;
+	margin: 0 0 7px 0;
+}
+
+.web-refs-title {
+	color: #666;
+	float: left;
+	font-size: 11px;
+	margin-left: 1px;
+	margin-right: 4px;
+}
+
+.web-refs {
+	float: left;
+}
+
+.web-refs img {
+	float: left;
+	padding-top: 2px;
+	margin-right: 2px;
+}
+
+.web-refs a {
+	float: left;
+	padding: 0;
+	font-size: 11px;
+	color: #069;
+	text-decoration: none;
+}
+
+.web-refs a:hover {
+	text-decoration: underline;
+}
+
+.web-refs span {
+	float: left;
+	font-size: 11px;
+	margin: 0 10px 0 10px;
+	color: #666;
+}
+
+.hssBox {
+	background: transparent url(/iv/common/styles/images/hss_bg.png) repeat
+		scroll;
+	height: 20px;
+	width: 20px;
+}
+
+html>body .hssBox {
+	background: transparent
+		url(/iv/common/highslide/graphics/outlines/rounded-white.png) repeat
+		scroll;
+}
+
+.hssBoxBorder {
+	border: medium none;
+	border-collapse: collapse;
+	width: 370px;
+}
+
+.HTMLPanelLoadingContent {
+	display: none;
+	position: relative;
+	top: -34px;
+}
+
+.flag-bottom {
+	clear: both;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 10px 0 10px 0;
+	background: #f6f6f6;
+	padding: 3px 0;
+}
+
+.exec-flag-cont h2 {
+	color: #333;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.exec-flag-cont .red {
+	color: #900;
+}
+
+.flag-details .employments {
+	float: left;
+	margin-bottom: 5px;
+}
+
+.flag-details .employments select {
+	width: 175px;
+}
+
+#findLinkedInMatchesText {
+	font-size: 1em;
+}
+
+.paired_data .fldName {
+	font-weight: bold;
+	font-size: 11px;
+	width: 70px;
+	float: left;
+	margin-top: 10px;
+}
+
+.paired_data .fldData {
+	font-weight: bold;
+	font-size: 11px;
+	float: left;
+	margin-top: 10px;
+}
+
+.unpaired_data .fldName {
+	font-weight: bold;
+	font-size: 11px;
+	width: 46px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.unpaired_data .fldName img {
+	border: 1px solid #ccc;
+}
+
+.unpaired_data .fldData {
+	font-weight: bold;
+	font-size: 11px;
+	float: left;
+	margin-top: 10px;
+}
+
+.connectionRow {
+	width: 100%;
+	min-height: 30px;
+	padding: 5px 0;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	clear: both;
+}
+
+.connectionDivider {
+	border-bottom: 1px solid #ccc;
+	float: left;
+	padding: 5px 0;
+	font-size: 11px;
+	font-weight: bold;
+	width: 100%;
+}
+
+#profile-image-target {
+	height: 80px;
+	width: 80px;
+}
+
+#profile-image-target.twitter {
+	border: 1px solid #ccc;
+	padding: 3px;
+	height: 73px;
+	width: 73px;
+}
+
+ul.menu .track_arrow_sprites {
+	background-position: -40px -27px;
+	cursor: pointer;
+	float: left;
+	font-size: 1px;
+	height: 5px;
+	margin: 10px 0 0 5px !important;
+	width: 8px;
+}
+
+.source_content {
+	font-size: 11px;
+	padding: 5px 10px;
+	color: #666;
+	text-decoration: none;
+}
+
+.source_content img {
+	vertical-align: middle;
+}
+
+.sectionHeader {
+	font-size: 12px;
+	font-weight: bold;
+	min-height: 20px;
+}
+
+#similarTitlesLink {
+	cursor: default;
+}
+
+body.person .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#executive-container {
+	width: 735px;
+}
+
+#executive-container .header {
+	overflow: visible;
+}
+
+#executive-container .header .inline .emp-name {
+	padding: 0;
+	float: left;
+	margin: 10px 0 0;
+}
+
+#executive-container .header .inline .emp-age {
+	float: left;
+	margin: 15px 5px 0 5px;
+}
+
+#executive-container .row.content {
+	margin-top: 5px;
+}
+
+#executive-container .row.errors {
+	margin: 5px 0;
+}
+
+#executive-container .primary-info {
+	white-space: nowrap;
+}
+
+#executive-container .primary-info .part {
+	float: none;
+	vertical-align: middle;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+#executive-container .primary-info .part:first-child {
+	float: left;
+}
+
+#executive-container .primary-info .part .exec-details {
+	max-width: 260px;
+	white-space: normal;
+}
+
+#executive-container .status {
+	margin: 10px 0;
+	padding: 0;
+	clear: both;
+}
+
+#executive-container .status .part {
+	text-align: right;
+}
+
+#executive-container .status .part:first-child {
+	text-align: left;
+}
+
+#executive-container .status .text {
+	font-size: 11px;
+	color: #666;
+	display: inline-block;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+#executive-container #flag-content {
+	color: #900;
+}
+
+#executive-container #flag-content * {
+	vertical-align: middle;
+}
+
+#executive-container .newsMiddle {
+	padding-top: 5px;
+	z-index: 10;
+}
+
+#executive-container .newsDivider {
+	width: 96%;
+	float: left;
+	padding: 0 0 5px 0;
+	margin-left: 10px;
+}
+
+#executive-container .news-time,#executive-container .news-source {
+	font-size: 11px;
+	font-weight: normal;
+	padding: 0;
+	color: #999;
+}
+
+#executive-container .newsFooter {
+	font-size: 11px;
+	height: 15px;
+	float: right;
+	margin-top: -18px;
+	position: relative;
+	z-index: 11;
+}
+
+#executive-container .newsFooter a {
+	color: #999;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.twitter-connect-wrap {
+	padding: 5px 10px;
+}
+
+.twitter-connect {
+	background: url("/iv/common/styles/images/twitter_connect_146px.png")
+		no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	display: inline-block;
+	height: 23px;
+	width: 146px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.twitter-connect:hover {
+	background-position: left -23px;
+}
+
+.twitter-connect:active {
+	background-position: left -46px;
+}
+
+.twitter-connect span {
+	left: -9999px;
+	position: absolute;
+}
+
+.twitter-title span.fullname {
+	color: #333;
+	font-weight: bold;
+	float: left;
+	font-size: 12px;
+}
+
+.twitter-title a.bluefont {
+	font-size: 12px;
+}
+
+.twitter-title img {
+	float: left;
+	display: block !important;
+}
+
+.twitter-title span.label {
+	float: left;
+	padding-top: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.twitter-search-label span.label {
+	padding-top: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.twitter-search-label img {
+	vertical-align: middle;
+	display: block !important;
+}
+
+#tweets {
+	margin-bottom: 10px;
+}
+
+#tweets a.bluefont_14px {
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	outline: none;
+	color: #069;
+}
+
+#tweets a.bluefont_14px:hover {
+	text-decoration: underline;
+}
+
+#tweets .aboutme {
+	clear: both;
+	background-color: #fff;
+	max-width: 100%;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin: 0 5px;
+	padding: 10px;
+}
+
+#tweets .aboutme .image {
+	float: left;
+	width: 20%;
+	max-width: 40px;
+}
+
+#tweets .aboutme .image img {
+	width: 32px;
+	height: 32px;
+}
+
+#tweets .aboutme .bio {
+	float: left;
+	width: 80%;
+}
+
+#tweets .aboutme .bio span.text {
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 11px;
+	display: block;
+}
+
+#tweets .aboutme .bio span.text:first-child {
+	font-style: italic;
+}
+
+#tweets .aboutme .bio span.text img {
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+#tweets .aboutme .follow-section {
+	clear: both;
+	background: url(/iv/common/styles/images/twitter-follow.png) no-repeat
+		top left transparent;
+	text-align: left;
+	margin-left: 40px;
+	width: 60px;
+}
+
+#tweets .aboutme .follow-section:hover {
+	background: url(/iv/common/styles/images/twitter-follow.png) no-repeat 0
+		-22px transparent;
+}
+
+#tweets .aboutme .follow-section.progress {
+	background: none no-repeat center center transparent;
+	background-image:
+		url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);
+	background-repeat: no-repeat;
+}
+
+#tweets .aboutme .follow-section span.text {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 11px 0 28px;
+	height: 20px;
+	text-indent: -9999px;
+}
+
+#tweets .aboutme .follow-section.progress span.text {
+	visibility: hidden;
+}
+
+#tweets .aboutme .following-section {
+	clear: both;
+	margin-left: 40px;
+	background: url(/iv/common/styles/images/twitter-follow.png) no-repeat 0
+		-44px transparent;
+	min-height: 20px;
+	width: 60px;
+}
+
+#tweets .aboutme .following-section span.text {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	text-indent: -9999px;
+	padding: 2px 11px 2px 20px;
+}
+
+#tweets .stats {
+	max-width: 100%;
+	background-color: #fff;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin: 0 5px 10px 5px;
+	border-right: 1px solid #ccc;
+}
+
+#tweets .stats .posts {
+	clear: both;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin: 0 10px;
+}
+
+#tweets .stats .posts .item {
+	font-size: 11px;
+	color: #999;
+	margin: 5px 0;
+}
+
+#tweets .stats .posts .item a,#tweets .stats .following .item a,#tweets .stats .followers .item a
+	{
+	font-weight: bold;
+	display: inline-block;
+	text-align: right;
+	padding-right: 5px;
+}
+
+#tweets .stats .posts .item a {
+	width: 50%;
+	outline: none;
+}
+
+#tweets .stats .following {
+	clear: both;
+	margin: 5px 10px 5px 10px;
+}
+
+#tweets .stats .following .item,#tweets .stats .followers .item {
+	text-align: right;
+}
+
+#tweets .stats .following .item,#tweets .stats .followers .item,#tweets .stats .following .photos,#tweets .stats .followers .photos
+	{
+	font-size: 11px;
+	color: #999;
+	width: 50%;
+	float: left;
+}
+
+#tweets .stats .following .item a,#tweets .stats .followers .item a {
+	display: block;
+	padding-right: 0;
+}
+
+#tweets .stats .photos a {
+	font-weight: bold;
+	display: inline-block;
+	text-align: right;
+	margin: 4px 0;
+}
+
+#tweets .stats .photos a:first-child {
+	min-width: 32px;
+}
+
+#tweets .stats .followers {
+	clear: both;
+	margin: 5px 10px 0 10px;
+}
+
+#tweets .tweets-section {
+	margin: 0 5px;
+}
+
+#tweets .tweets-section ul.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+	font-size: 12px;
+	font-weight: normal;
+	position: relative;
+	float: left;
+}
+
+#tweets .tweets-section ul.tabs li.tab {
+	line-height: 14px;
+	list-style: none outside none;
+	float: left;
+	margin: 0 3px 5px 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#tweets .tweets-section ul.tabs li.tab:first-child {
+	padding: 0;
+	margin: 0 1px 5px 1px;
+	border-right: 1px solid #ccc;
+}
+
+#tweets .tweets-section ul.tabs li.tab.active {
+	cursor: default;
+	font-weight: bold;
+}
+
+#tweets .tweets-section ul.tabs .leftFiller {
+	display: inline-block;
+	float: left;
+	height: 18px;
+	width: 6px;
+	margin: -4px 0 0 -1px;
+}
+
+#tweets .tweets-section ul.tabs .rightFiller {
+	display: inline-block;
+	height: 18px;
+	width: 6px;
+	float: right;
+	margin: -4px -1px 0 0;
+}
+
+#tweets .tweets-section .tweets-content-section,#tweets .tweets-section .mention-content-section
+	{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin-top: -1px;
+}
+
+#tweets .tweets-section .boxrightfiller {
+	float: right;
+	width: 5px;
+	height: 16px;
+	margin: -1px -1px 0 0;
+}
+
+#tweets .collapsed-bucket,#tweets .expanded-bucket {
+	list-style: none outside none;
+	margin: 0 10px;
+	padding: 5px 0 0 0;
+}
+
+#tweets .expanded-bucket {
+	list-style: none outside none;
+	margin: 0 10px;
+	padding: 0;
+	display: none;
+}
+
+#tweets .tweet-line {
+	margin: 5px 0;
+	display: block;
+}
+
+#tweets .expanded-bucket .tweet-line {
+	padding-top: 5px;
+	border-top: 1px solid #ccc;
+}
+
+#tweets .tweet-line .text {
+	float: left;
+	width: 77%;
+}
+
+#tweets .tweet-line .picture {
+	display: block;
+	float: left;
+	width: 38px;
+	height: 38px;
+	padding-right: 7px;
+}
+
+#tweets .tweet-line .actions {
+	padding-top: 5px;
+	visibility: hidden;
+	clear: both;
+}
+
+#tweets .tweet-line:hover .actions {
+	visibility: visible;
+}
+
+#tweets .tweet-line.progress .actions {
+	visibility: visible;
+}
+
+#tweets .tweet-line .actions .reply {
+	float: right;
+	vertical-align: middle;
+	list-style: none outside none;
+	padding-left: 20px;
+	background: url(/iv/common/styles/images/replytweet.png) no-repeat
+		scroll 5px 2px transparent;
+	margin-left: 5px;
+	font-size: 11px;
+}
+
+#tweets .tweet-line .actions .retweet {
+	float: right;
+	vertical-align: middle;
+	background: url(/iv/common/styles/images/retweet.png) no-repeat scroll
+		left center transparent;
+	list-style-type: none;
+	padding-left: 18px;
+	margin-left: 5px;
+	font-size: 11px;
+}
+
+#tweets .tweet-line .actions .greyText {
+	float: right;
+	vertical-align: middle;
+	background: url(/iv/common/styles/images/retweet.png) no-repeat scroll
+		left center transparent;
+	list-style-type: none;
+	padding-left: 18px;
+	margin-left: 5px;
+	font-size: 11px;
+	color: #999;
+}
+
+#tweets .tweet-line .actions .retweet.progress {
+	background-image:
+		url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);
+	background-repeat: no-repeat;
+}
+
+#tweets .controls {
+	border-top: 1px solid #ccc;
+	padding: 5px 0;
+	text-align: right;
+	margin: 5px 10px 0;
+}
+
+#tweets .tweets-section .bottomrightfiller {
+	float: right;
+	width: 5px;
+	height: 20px;
+	margin: -18px -1px 0;
+}
+
+#tweets .tweets-section .bottomleftfiller {
+	float: left;
+	width: 5px;
+	height: 20px;
+	margin: -18px 0 0 -1px;
+}
+
+.reply-container {
+	display: block;
+	padding: 15px 10px 0 10px;
+	width: 480px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.reply-container .head {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.reply-container .head h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.reply-container .input-section {
+	margin: 15px 0 5px 0;
+}
+
+.reply-container .image {
+	float: left;
+	width: 60px;
+	text-align: right;
+}
+
+.reply-container .reply-text-section {
+	background: url(/iv/common/styles/images/replytweetmodaltext.png)
+		no-repeat 2px 0 transparent;
+	float: left;
+	width: 420px;
+	min-height: 64px;
+	margin-bottom: 5px;
+}
+
+.reply-container .reply-text-section textarea {
+	margin-left: 29px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: transparent;
+	border: none;
+	width: 385px;
+	height: 55px;
+	resize: none;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.reply-container .reply-controls {
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+.reply-container .reply-controls .charLeft {
+	float: left;
+	color: #999;
+	font-size: 11px;
+}
+
+.reply-container .reply-controls #tweetTextCount {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.reply-container .reply-controls #tweetTextCount.red {
+	color: #900;
+}
+
+.reply-container #replyTweetTrigger {
+	background: url(/iv/common/styles/images/replytweetbutton.png) no-repeat
+		1px 0 transparent;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 9px 11px;
+	width: 40px;
+	color: #333;
+	display: inline-block;
+	float: right;
+}
+
+.reply-container #replyTweetTrigger.progress {
+	background: none no-repeat 50% 50% transparent;
+	background-image:
+		url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+.reply-container #replyTweetTrigger.disabled {
+	opacity: .4;
+	cursor: default;
+	filter: alpha(opacity =   40);
+}
+
+.reply-container .replied-tweet-section {
+	background-color: #f4f4f4;
+	margin: 20px 0 0 0;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetImage {
+	float: left;
+	width: 60px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetText {
+	float: left;
+	width: 398px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetText .repliedTweeter
+	{
+	font-weight: bold;
+	display: block;
+	padding-bottom: 3px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetText .repliedTweet
+	{
+	font-weight: normal;
+	display: block;
+}
+
+#tweets .yellowbox {
+	font-weight: bold;
+	margin-left: 0;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 98%;
+}
+
+.tweet {
+	padding: 5px 0;
+	width: 315px;
+	font-size: 12px;
+	color: #333;
+	font-family: Arial;
+	font-weight: normal;
+	border-top: 1px solid #ccc;
+}
+
+.tweet-content {
+	width: 270px;
+	font-weight: normal;
+}
+
+.tweet-time {
+	font-size: 11px;
+	color: #999;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.tweetControls {
+	width: 100%;
+	height: 15px;
+	padding-top: 5px;
+	border-top: 1px solid #ccc;
+}
+
+.tweetControls .control {
+	float: right;
+}
+
+.control-seperator {
+	float: right;
+	padding: 0 5px;
+	color: #666;
+}
+
+.twitter-user-results-heading {
+	margin: 0 20px 10px 6px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #666;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.twitter-user-results-heading img {
+	vertical-align: bottom;
+}
+
+.twitter-user-result {
+	padding: 3px 0 5px 0;
+	font-family: Arial;
+	display: block;
+	clear: both;
+	margin: 0 10px;
+	margin: 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.more,.less {
+	font-size: 12px;
+	float: right;
+	color: #069;
+	padding-top: 5px;
+}
+
+.more:hover,.less:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.twitter-user-result ul {
+	margin: 0 0 0 6px;
+	list-style-type: none;
+}
+
+.twitter-user-result li {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 2px;
+	line-height: 13px;
+	list-style-type: none;
+	word-wrap: break-word;
+}
+
+.twitter-user-result img {
+	float: left;
+	width: 37px;
+	height: 37px;
+	padding-top: 2px;
+}
+
+.twitter-user-result .link {
+	color: #999;
+	font-size: 11px;
+}
+
+.twitter-user-result .location {
+	font-size: 11px;
+	color: #333;
+}
+
+.twitter-user-result .description {
+	color: #333;
+	font-size: 11px;
+}
+
+.more-results {
+	display: none;
+}
+
+.userMatchControls {
+	height: 25px;
+	clear: both;
+	margin: 0 10px;
+}
+
+.twitter-tooltip {
+	margin: 20px;
+	width: 310px;
+	border: 1px solid #000;
+	position: relative;
+	display: none;
+}
+
+.twitter-profile {
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+}
+
+.twitter-fullname {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.twitter-handle {
+	font-size: 12px;
+}
+
+.twitter-url {
+	font-size: 11px;
+}
+
+.twitter-handle:hover,.twitter-url:hover {
+	cursor: pointer;
+}
+
+.twitter-location {
+	font-size: 11px;
+	font-weight: normal;
+	color: #666;
+}
+
+.twitter-description {
+	font-weight: normal;
+	color: #666;
+	padding: 5px;
+}
+
+.username {
+	font-weight: bold;
+	color: #666;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.fb-connect-wrap {
+	padding: 5px 0 0 10px;
+}
+
+.fb-connect {
+	background: url("/iv/common/styles/images/fb_connect.png") no-repeat
+		scroll 0 0 transparent;
+	border: 0 none;
+	display: inline-block;
+	height: 23px;
+	width: 170px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.fb-connect:hover {
+	background-position: left -23px;
+}
+
+.fb-connect:click {
+	background-position: left -46px;
+}
+
+#facebook {
+	margin-bottom: 10px;
+}
+
+.fb-result {
+	clear: both;
+	display: block;
+	font-family: Arial;
+	margin: 0 0 5px 0;
+	padding-top: 0;
+	min-height: 37px;
+}
+
+.fb-result-empty {
+	clear: both;
+	display: block;
+	font-family: Arial;
+	margin: 5px 0;
+	padding-top: 3px;
+}
+
+.fb-result img.profileImg {
+	display: block;
+	float: left;
+	height: 37px;
+	padding-top: 2px;
+	width: 37px;
+}
+
+.fb-result img.attrImgs {
+	display: block;
+	margin-bottom: 10px;
+	float: left;
+	height: 10px;
+	padding-top: 2px;
+	width: 10px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.fb-result ul {
+	list-style-type: none;
+	margin: 0 0 0 6px;
+}
+
+.fb-result ul li {
+	display: inline-block;
+}
+
+.fb-result .fullname {
+	font-weight: bold;
+	color: #666;
+}
+
+.fbLink {
+	color: #069;
+	font-size: 11px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.fbLink:hover {
+	text-decoration: underline;
+}
+
+.fbText {
+	font-size: 11px;
+}
+
+.profileImgMutual {
+	float: left;
+	height: 25px;
+	margin-left: 5px;
+	width: 25px;
+}
+
+.fbRow {
+	width: 100%;
+	margin: 10px 0;
+	clear: both;
+}
+
+.fbRow .left {
+	float: left;
+	font-size: 11px;
+	min-height: 25px;
+	width: 30%;
+}
+
+.fbRow .left span {
+	font-weight: bold;
+}
+
+.fbRow .right {
+	float: left;
+	font-size: 11px;
+	min-height: 25px;
+	width: 70%;
+}
+
+.fbView {
+	cursor: pointer;
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.fbView:hover {
+	text-decoration: underline;
+}
+
+.mutualCount {
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.connectionRow {
+	width: 100%;
+	min-height: 30px;
+	padding: 5px 0;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	clear: both;
+}
+
+.connectionDivider {
+	border-bottom: 1px solid #ccc;
+	float: left;
+	padding: 5px 0;
+	font-size: 11px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.connectionContainer .personal.know {
+	margin-right: 5px;
+	padding-top: 0;
+	float: right;
+}
+
+.connectionContainer .personal {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.connectionGraphContainer {
+	font-size: 12px;
+	line-height: 14px;
+	margin: 0 -2px;
+}
+
+.connectionGraphContainer+.crossButton {
+	background: url("/iv/common/styles/images/close_red.png") no-repeat
+		scroll 0 0 transparent;
+	cursor: default;
+	height: 25px;
+	position: absolute;
+	right: -10px;
+	top: -12px;
+	width: 25px;
+	z-index: 200000;
+}
+
+.connectionGraphContainer .header {
+	color: #900;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px;
+	width: 97%;
+}
+
+.connectionGraphContainer .header span {
+	display: none;
+}
+
+.connectionGraphContainer .header span:first-child {
+	display: block;
+}
+
+.connectionGraphContainer.startConversation .header span {
+	display: block;
+}
+
+.connectionGraphContainer.startConversation .header span:first-child {
+	display: none;
+}
+
+.connectionGraphContainer .content {
+	border-top: 2px solid #f0f0f0;
+	background: none repeat scroll 0 0 #f0f0f0;
+	float: left;
+	width: 200%;
+	height: 410px;
+}
+
+.connectionGraphContainer .content.tall {
+	height: 410px;
+}
+
+.connectionGraphContainer .content.short {
+	height: 300px;
+}
+
+.iv-mashup-screen .connectionGraphContainer .content {
+	max-height: 300px;
+	height: 300px;
+}
+
+.connectionGraphContainer .source,.connectionGraphContainer .target {
+	background: none repeat scroll 0 0 #f0f0f0;
+	height: 100%;
+	float: left;
+	width: 15%;
+	margin: 0;
+}
+
+.connectionGraphContainer .target {
+	width: 25%;
+}
+
+.connectionGraphContainer .source .wrap,.connectionGraphContainer .target .wrap
+	{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+
+.connectionGraphContainer .source .image img,.connectionGraphContainer .target .image img
+	{
+	margin-bottom: 5px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.connectionGraphContainer .source .name {
+	color: #666;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.connectionGraphContainer .target .name a {
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+}
+
+.connectionGraphContainer .target .company a {
+	color: #333;
+	text-decoration: none;
+}
+
+.connectionGraphContainer .target .company a:hover {
+	text-decoration: underline;
+}
+
+.connectionGraphContainer .formerText {
+	color: #900;
+}
+
+.connectionGraphContainer .target .name a:hover {
+	text-decoration: underline;
+}
+
+.connectionGraphContainer .greyConnectionBox {
+	border-radius: 50px 50px 50px .5 100px 100px 100px;
+	box-shadow: 0 0 8px 1px #c0c0c0;
+	float: left;
+	height: 95%;
+	margin: 7px 1% 0 -1%;
+	width: 60%;
+}
+
+.connectionGraphContainer .connections {
+	background: none repeat scroll 0 0 #fff;
+	float: left;
+	height: 105%;
+	margin-bottom: -8px;
+	margin-top: -8px;
+	overflow: auto;
+	width: 100%;
+}
+
+.connectionGraphContainer .connections .firstDeg {
+	float: left;
+	height: 70px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.connectionGraphContainer .connections .secondDeg {
+	float: left;
+	height: 140px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.connectionGraphContainer .connections .connection:last-child {
+	padding-bottom: 40px;
+}
+
+.connectionGraphContainer .connections .firstDeg .roundIconHolder:hover,.connectionGraphContainer .connections .secondDeg .roundIconHolder:hover
+	{
+	background-color: #88b632;
+}
+
+.connectionGraphContainer .connections .firstDeg .roundIconHolder.disableHover:hover
+	{
+	background-color: #a1cf50;
+}
+
+.connectionGraphContainer .connections .secondDeg .roundIconHolder.disableHover:hover
+	{
+	background-color: #a1cf50;
+}
+
+.connectionGraphContainer .connections .firstDeg .line,.connectionGraphContainer .connections .secondDeg .line
+	{
+	border-top: 2px solid #f0f0f0;
+	margin-top: 20px;
+	z-index: -1;
+	float: left;
+	width: 100%;
+}
+
+.connectionGraphContainer .connections .secondDeg .line {
+	margin-top: 60px;
+}
+
+.connectionGraphContainer .connections .firstDeg .iconSection {
+	float: left;
+	margin-top: -24px;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.connectionGraphContainer .connections .secondDeg .iconSection {
+	float: left;
+	margin-top: -24px;
+	width: 28%;
+	max-width: 28%;
+	min-width: 28%;
+	margin-bottom: 40px;
+}
+
+.connectionGraphContainer .connection .iconSection .underText {
+	font-size: 10px;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection
+	{
+	width: 44%;
+	max-width: 44%;
+	min-width: 44%;
+	float: left;
+	height: 100%;
+	margin-top: -40px;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection
+	{
+	border: 1px solid #ccc;
+	float: left;
+	width: 100%;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo
+	{
+	background: none repeat scroll 0 0 #fff;
+	border: none;
+	float: left;
+	height: 65%;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	z-index: 1;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details
+	{
+	float: left;
+	height: 80%;
+	margin-left: 8%;
+	overflow: hidden;
+	width: 65%;
+	max-width: 65%;
+	min-width: 65%;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details div
+	{
+	cursor: default;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details div.title,.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details div.company
+	{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .image
+	{
+	float: left;
+	height: 80%;
+	margin-left: 3%;
+	width: 20%;
+	max-width: 20%;
+	min-width: 20%;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .image img
+	{
+	border: 1px solid #ccc;
+	padding: 1px;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details .name
+	{
+	font-weight: bold;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details .name a
+	{
+	color: #069;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details .name:hover a
+	{
+	text-decoration: underline;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details .company a
+	{
+	color: #333;
+	text-decoration: none;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .connectionInfo .details .company:hover a
+	{
+	text-decoration: underline;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .askForRef a
+	{
+	background: none repeat scroll 0 0 #f0f0f0;
+	border: none;
+	color: #666;
+	float: left;
+	height: 18px;
+	padding-left: 3%;
+	padding-top: 5px;
+	width: 97%;
+	max-width: 97%;
+	min-width: 97%;
+	text-decoration: none;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .askForRef a:hover
+	{
+	background: none repeat scroll 0 0 #e6e6e6;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .askForRef .askForText
+	{
+	margin-top: 1px;
+}
+
+.connectionGraphContainer .connections .secondDeg .connectionInfoSection .infoSection .askForRef .envelop
+	{
+	background-position: -120px -3px;
+	background-repeat: no-repeat;
+	float: left;
+	height: 15px;
+	width: 22px;
+}
+
+.connectionGraphContainer .connections .arrow {
+	background-image: url('/iv/common/styles/images/grey_arrow.png');
+	float: right;
+	height: 11px;
+	margin-top: -7px;
+	width: 8px;
+}
+
+.connectionGraphContainer .connections .socialIconsSection {
+	float: left;
+	width: 100%;
+}
+
+.connectionGraphContainer .connections .firstDeg .socialIconsSection.count1
+	{
+	margin-left: 48%;
+}
+
+.connectionGraphContainer .connections .firstDeg .socialIconsSection.count2
+	{
+	margin-left: 46%;
+}
+
+.connectionGraphContainer .connections .firstDeg .socialIconsSection.count3
+	{
+	margin-left: 44%;
+}
+
+.connectionGraphContainer .connections .firstDeg .socialIconsSection.count4
+	{
+	margin-left: 42%;
+}
+
+.connectionGraphContainer .connections .secondDeg .socialIconsSection.count1
+	{
+	margin-left: 44%;
+}
+
+.connectionGraphContainer .connections .secondDeg .socialIconsSection.count2
+	{
+	margin-left: 37%;
+}
+
+.connectionGraphContainer .connections .secondDeg .socialIconsSection.count3
+	{
+	margin-left: 32%;
+}
+
+.connectionGraphContainer .connections .secondDeg .socialIconsSection.count4
+	{
+	margin-left: 25%;
+}
+
+.connectionGraphContainer .socialIcon {
+	background-image: url("/iv/common/styles/images/connections_social.png");
+	float: left;
+	height: 12px;
+	margin-right: 5px;
+	width: 13px;
+}
+
+.connectionGraphContainer .socialIcon.fb {
+	background-position: 26px 0;
+}
+
+.connectionGraphContainer .socialIcon.ol {
+	background-position: 0 0;
+}
+
+.connectionGraphContainer .socialIcon.ln {
+	background-position: 13px 0;
+}
+
+.connectionGraphContainer .socialIcon.iv {
+	background-image:
+		url('/iv/common/styles/images/theme/original/IV_12x12.png');
+	float: left;
+	height: 12px;
+	margin-right: 6px;
+	width: 12px;
+}
+
+.connectionGraphContainer .target .start-conv-trigger {
+	margin: 10px 0;
+}
+
+.connectionGraphContainer .target .start-conv-trigger input#startConversation
+	{
+	font-weight: normal;
+	margin: 0;
+	width: auto;
+}
+
+.connectionGraphContainer .content-wrap {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+.connectionGraphContainer .page1 {
+	float: left;
+	width: 50%;
+	height: 100%;
+	-webkit-transition: .25s margin ease;
+	-ms-transition: .25s margin ease;
+	-o-transition: .25s margin ease;
+	-moz-transition: .25s margin ease;
+	transition: .25s margin ease;
+}
+
+.connectionGraphContainer.startConversation .page1 {
+	margin-left: -50%;
+}
+
+.connectionGraphContainer .page2 {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #fff;
+}
+
+.connectionGraphContainer .page2 .target {
+	position: relative;
+}
+
+.connectionGraphContainer .page2 .target .wrap {
+	padding-left: 20px;
+}
+
+.connectionGraphContainer .page2 .target .wrap .email,.connectionGraphContainer .page2 .target .wrap .phone
+	{
+	margin: 10px 0;
+}
+
+.connectionGraphContainer .page2 .target .wrap .email a span {
+	vertical-align: middle;
+}
+
+.connectionGraphContainer .page2 .target .wrap .email a span.envelop {
+	height: 15px;
+	width: 20px;
+	background-position: -120px -3px;
+	display: inline-block;
+}
+
+.connectionGraphContainer .page2 .target .wrap .phone span {
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.connectionGraphContainer .page2 .target .wrap .phone span.phone {
+	height: 15px;
+	width: 20px;
+	background-position: -140px -3px;
+	display: inline-block;
+	margin: 0;
+}
+
+.connectionGraphContainer .page2 .target .wrap .back {
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+}
+
+.connectionGraphContainer .page2 .target .wrap .greyButton {
+	font-weight: normal;
+	margin: 0;
+	padding: 6px 8px;
+}
+
+.connectionGraphContainer .page2 .target {
+	width: 23%;
+}
+
+.connectionGraphContainer .page2 .conv-content {
+	float: left;
+	height: 100%;
+	width: 77%;
+}
+
+.connectionGraphContainer .page2 .conv-content .container {
+	padding: 0 15px;
+	margin-top: -2px;
+	border-top: 2px solid #FFF;
+}
+
+.connectionGraphContainer .page2 .conv-content .container .row .sixcol.left
+	{
+	margin-right: 15px;
+	width: 48%;
+}
+
+.connectionGraphContainer .page2 .conv-content .container .row .sixcol.last
+	{
+	width: 49%;
+}
+
+.connectionGraphContainer .page2 .conv-content .section-head {
+	background: #f6f6f6;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 0;
+	text-indent: 8px;
+	font-weight: bold;
+}
+
+.connectionGraphContainer .page2 .conv-content .section-content {
+	margin-bottom: 10px;
+}
+
+.connectionGraphContainer .page2 .conv-content .section-content.loading
+	{
+	background: none no-repeat center center transparent;
+	background-image:
+		url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+}
+
+.connectionGraphContainer .page2 .conv-content .section-content.loading *
+	{
+	display: none;
+}
+
+.connectionGraphContainer .page2 .conv-content .mutualDropContainer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.connectionGraphContainer .page2 .conv-content .mutualDropContainer ul li
+	{
+	list-style: none;
+	padding: 8px 0;
+	margin: 0;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.connectionGraphContainer .page2 .conv-content .mutualDropContainer ul li:first-child
+	{
+	border-top: none;
+}
+
+.connectionGraphContainer .page2 .conv-content .mutualDropContainer ul li .icon
+	{
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.connectionGraphContainer .page2 .conv-content .mutualDropContainer ul li .info
+	{
+	float: left;
+	width: 85%;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item
+	{
+	list-style: none;
+	padding: 8px 0 0 0;
+	margin: 0;
+	width: 100%;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.head
+	{
+	color: #666;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .icon
+	{
+	float: left;
+	margin: 0 10px 0 0;
+	width: 25px;
+	height: 24px;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .icon.person
+	{
+	background-position: -145px 50px;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .icon.blog
+	{
+	background-position: -158px 70px;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .info
+	{
+	float: left;
+	width: 85%;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .info .article-source
+	{
+	font-size: 11px;
+	color: #666;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .info .article-desc
+	{
+	font-size: 11px;
+	white-space: nowrap;
+	color: #333;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: normal;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .info .article-source .name,.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .info .article-source .time
+	{
+	max-width: 100px;
+	white-space: nowrap;
+	float: left;
+	margin-right: 5px;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer .section-content.prevalidate
+	{
+	visibility: hidden;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .article-social
+	{
+	font-size: 11px;
+	color: #666;
+	margin-top: 2px;
+	visibility: hidden;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .article-social.show
+	{
+	visibility: visible;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .article-social .label
+	{
+	vertical-align: middle;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .article-social .links
+	{
+	margin-left: 5px;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .article-social .links a
+	{
+	margin-right: 5px;
+}
+
+.connectionGraphContainer .page2 .conv-content .agentsContainer ul li.item .article-social .links a img
+	{
+	vertical-align: middle;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .login
+	{
+	margin: 0 25px 0 10px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .login p
+	{
+	margin-bottom: 0;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .login a
+	{
+	background: url("/iv/common/styles/images/twitter_connect_146px.png")
+		no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	display: inline-block;
+	height: 23px;
+	width: 146px;
+	margin-top: 5px;
+	text-indent: -99999px;
+	margin-bottom: 5px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .login a:hover
+	{
+	background-position: left -23px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .login a:active
+	{
+	background-position: left -46px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .section-content.prevalidate
+	{
+	visibility: hidden;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .tweets
+	{
+	font-size: 11px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .tweets ul
+	{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .tweets ul li
+	{
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .Twitter
+	{
+	float: left;
+	width: 20px;
+	height: 14px;
+	margin-right: 5px;
+	background: transparent
+		url("/iv/common/styles/images/twitterbird_14x12.png") no-repeat 0 2px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .text {
+	word-wrap: break-word;
+	font-size: 11px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .userName,.connectionGraphContainer .page2 .conv-content .twitterContainer .imageUrl
+	{
+	display: none;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postText a
+	{
+	font-size: 11px !important;
+	color: #069;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postText a:hover
+	{
+	text-decoration: underline !important;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postText
+	{
+	padding: 5px 0;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postText+.postText
+	{
+	border-top: 1px solid #ccc;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postText:hover .action
+	{
+	visibility: visible;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postInfo
+	{
+	float: left;
+	width: 88%;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postTime
+	{
+	color: #999;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .action
+	{
+	clear: both;
+	text-align: left;
+	visibility: hidden;
+	padding-left: 25px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .social_links
+	{
+	display: inline-block;
+	padding-left: 4px;
+	float: right;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .action *
+	{
+	vertical-align: middle;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .postsContainer .bluefont_14px
+	{
+	padding-left: 2px;
+}
+
+.connectionGraphContainer .page2 .conv-content .twitterContainer .greyText
+	{
+	color: #999;
+}
+
+.connectionGraphContainer .content .connections .viewport {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.connectionGraphContainer .content .connections .overview {
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.connectionGraphContainer .content .connections .thumb .end,.connectionGraphContainer .content .connections .thumb
+	{
+	background-color: #b8b8b8;
+}
+
+.connectionGraphContainer .content .connections .scrollbar {
+	position: absolute;
+	right: 197px;
+	width: 8px;
+	top: 46px;
+}
+
+.connectionGraphContainer .content .connections .track {
+	border: 1px solid #c7c7c7;
+	background-color: #e8e8e8;
+	height: 100%;
+	width: 6px;
+	position: relative;
+	padding: 0;
+}
+
+.connectionGraphContainer .content .connections .thumb {
+	height: 20px;
+	width: 6px;
+	cursor: pointer;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	box-shadow: inset 0 0 1px #666;
+	-ms-box-shadow: inset 0 0 1px #666;
+	-o-box-shadow: inset 0 0 1px #666;
+	-webkit-box-shadow: inset 0 0 1px #666;
+	-moz-box-shadow: inset 0 0 1px #666;
+}
+
+.connectionGraphContainer .content .connections .thumb .end {
+	overflow: hidden;
+	height: 5px;
+	width: 6px;
+	box-shadow: inset 0 1px 1px #999;
+	-ms-box-shadow: inset 0 1px 1px #999;
+	-o-box-shadow: inset 0 1px 1px #999;
+	-webkit-box-shadow: inset 0 1px 1px #999;
+	-moz-box-shadow: inset 0 1px 1px #999;
+}
+
+.connectionGraphContainer .content .connections .disable {
+	display: none !important;
+}
+
+.connectionGraphContainer .content .mutualDropContainer .disable {
+	display: none !important;
+}
+
+.noSelect {
+	user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.conn-hover-tip {
+	width: 150px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.conn-hover-tip .company-common {
+	margin-bottom: 5px;
+}
+
+.conn-hover-top .target-info {
+	margin-bottom: 5px;
+}
+
+.iv-toolTip.connections-hover {
+	max-width: 155px !important;
+	min-width: 155px !important;
+	width: 155px !important;
+}

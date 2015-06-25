@@ -1,0 +1,46 @@
+.sixcol {
+	margin-bottom : 10px;
+	margin-right: 3%;
+}
+
+input,select {
+	height : 20px;
+}
+
+#company-suggest {
+	width : 300px;
+}
+
+.syncButtonSpacing{margin:3px 10px 0 0;}
+.screen-head{margin:0 0 15px -2px;padding:0;line-height:18px;}
+.connectionsNav.secondaryNavFlat{margin-left:-1px;}
+#add-employer-section,#add-employer-section .container{padding-left:0;padding-right:0;}
+#add-employer-section a{outline:none;}
+#add-employer-section .row{margin:0 0 10px 0;}
+#add-employer-section .row label{line-height:20px;font-weight:bold;white-space:nowrap;}
+#add-employer-section .row .red{color:#990000;}
+#add-employer-section #company-suggest,#add-employer-section #title,#add-employer-section #university-suggest{width:98%;margin:0;}
+#add-employer-section #duration select#startMonth,#add-employer-section #duration select#endMonth{float:left;width:20%;margin:0 1% 0 0;padding:0;}
+#add-employer-section #duration select#startYear,#add-employer-section #duration select#endYear{float:left;width:21%;margin:0 1% 0 0;padding:0;}
+#add-employer-section #duration span{float:left;width:14%;text-align:center;margin:0 0 0;padding:3px 0;}
+#add-employer-section .controls{text-align:right;}
+#add-employer-section .controls a.loading,#add-employer-section .controls a.loading:hover{background:none no-repeat center center transparent;background-image:url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);background-repeat:no-repeat;border:none;color:transparent !important;}
+#add-employer-section #error-message{width:auto;float:none;margin-bottom:10px;}
+.grid-header,#grid-container{display:none;margin:0;}
+#personalRefContainer,#companyRefContainer{clear:both;}
+#companyRefContainer{clear:both;display:none;}
+#personalRefContainer .message,#companyRefContainer .message{font-weight:bold;margin-bottom:10px;}
+.addReferenceWrap{display:none;margin:10px 0;text-align:right;}
+#user_grid_header,#company_grid_header{display:none;margin-bottom:0;}
+#spinner{display:none;height:100px;}
+.error_ticker{height:15px;width:18px;background-position:0px -23px;margin:1px 5px 0 5px;float:left;}
+.labelEdu,.labelEmp{float:left;}
+.acUnivName,.acCompName{font-color:#333333;font-size:12px;font-family:Arial;}
+.acCompName{padding:5px 0;display:block;}
+.acEduResults,.acEmpResults{padding:0px;border:1px solid #999999;background-color:#ffffff;overflow:hidden;margin:0;height:auto;z-index:100000;}
+.acEduSelect,.acEmpSelect{background-color:#f6f6f6;}
+.acEduResults ul,.acEmpResults ul{width:100%;list-style-position:outside;list-style:none;padding:0;margin:0;}
+.acEduResults li,.acEmpResults li{margin:0px;padding:2px 5px 2px 5px;cursor:pointer;display:block;width:100%;font:menu;font-size:12px;overflow:hidden;}
+.acEduLocation,.acEmpLocation{font-family:Arial;font-size:11px;color:#999999 !important;}
+.acEduSelect .acEduLocation,.acEmpSelect .acEmpLocation{font-family:Arial;font-size:11px;}
+.acEduInput,.acEmpInput{width:284px;}

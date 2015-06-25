@@ -1,0 +1,273 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/retrieve_passwd.css" type="text/css">
+	</head>
+	<body class="B_retrv" youdao="bind">
+	<div class="TX_retrv">
+	<div class="retrv_hd">
+       <div class="top_lnk">            	
+    	</div>
+    </div>
+	<div class="retrv_main clearfix">
+		<div class="main_title">
+	    	<div class="main_tab">
+                <a href="http://login.sina.com.cn/forgot/index?type=sms&amp;entry=weibo" class="current">通过注册/绑定手机找回密码</a>
+	        	<a href="http://login.sina.com.cn/forgot/index?type=email&amp;entry=weibo">通过登录/注册邮箱找回密码</a>
+	        	<a href="http://login.sina.com.cn/forgot/index?type=common&amp;entry=weibo">其他方式找回密码</a>
+            </div>
+	    </div>
+        
+		<!--录入信息-->
+		<div class="retrv_form reg_mobile" id="fill-mobile-div">
+			<form name="form_fill" id="fill-mobile-form">
+				<div class="ipt_erro" style="display:none" node-type="error-tip">错误提示</div>
+				<input type="hidden" name="md5_str" value="11d090941f73dce60e3419347815d496" node-type="md5_str">
+				<input type="hidden" name="time" value="1417446790" node-type="time">
+				<input type="hidden" name="entry" value="weibo" node-type="entry">
+				<input type="hidden" name="type" value="sms" node-type="type">
+				<input type="hidden" name="from" value="" node-type="from">
+				<input type="hidden" name="loginname" value="" node-type="loginname">
+				<input type="hidden" name="mobile" value="" node-type="mobile">
+				<input type="hidden" name="email" value="" node-type="email">
+				<input type="hidden" name="ag" value="" node-type="ag">
+				<input type="hidden" name="randcode" value="" node-type="randcode">	
+				<input type="hidden" name="mask_mobile" value="" node-type="mask_mobile">
+				<input type="hidden" name="mask_email" value="" node-type="mask_email">
+				<input type="hidden" name="selectmobile" value="" node-type="selectmobile">
+				<input type="hidden" name="mask_ssomail" value="" node-type="mask_ssomail">
+				<input type="hidden" name="mask_wbmail" value="" node-type="mask_wbmail">
+				<input type="hidden" name="selectemail" value="" node-type="selectemail">
+				<input type="hidden" name="typetosms" value="" node-type="typetosms">			<div class="info_list clearfix">
+				<div class="tit">
+					<i>*</i>手机号：
+				</div>
+				<div class="ipt">
+					<input name="loginname" class="reg_ipt" maxlength="20" type="text" value="" node-type="field-mobile" placeholder="请输入注册/绑定手机">
+					<div class="attachment" style="display:none"></div>
+				</div>
+			   <div class="tips" style="display:none" node-type="field-mobile-tip">
+					<p class="suggest">
+						<span class="icon_suggest"></span>4-30位字符：英文、数字或中文均可
+					</p>
+				</div>
+				</div>
+		        <div class="info_list clearfix">
+		            <div class="ipt"><a href="/forgot/index?entry=sso&amp;overseas=1">非中国大陆手机号,请点此进入</a></div>
+		        </div>
+				<div class="info_list clearfix">
+					<div class="tit">
+						<i>*</i>验证码：
+					</div>
+					<div class="ipt ver_code">
+						<input name="pincode" class="reg_ipt" type="text" maxlength="4" value="" node-type="field-door"><span class="ver_pic"><img src="/cgi/pin.php?r=1417446792315&amp;lang=zh&amp;type=newwave" node-type="door-img"><a href="#"></a></span><a href="#" node-type="change-door">看不清？</a>
+						<div class="attachment"></div>
+					</div>
+					 <div class="tips" style="display:none" node-type="field-door-tip"></div>
+				</div>
+				
+				<div class="info_submit">
+					<div class="ipt">
+						<a href="#" class="btn_sub" node-type="submit-trigger"><span>确定</span></a>
+						<div class="sub_tip">忘记登录名？<a href="http://help.weibo.com/appeal/forget" target="_blank">请试试找回登录名</a></div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--/录入信息-->
+
+		<div class="opt_rslt clearfix slct_num" style="display:none" id="select-mobile-div">
+			<form name="form_select_mobile" id="select-mobile-form">
+		    	<input type="hidden" name="md5_str" value="11d090941f73dce60e3419347815d496" node-type="md5_str">
+				<input type="hidden" name="time" value="1417446790" node-type="time">
+				<input type="hidden" name="entry" value="weibo" node-type="entry">
+				<input type="hidden" name="type" value="sms" node-type="type">
+				<input type="hidden" name="from" value="" node-type="from">
+				<input type="hidden" name="loginname" value="" node-type="loginname">
+				<input type="hidden" name="mobile" value="" node-type="mobile">
+				<input type="hidden" name="email" value="" node-type="email">
+				<input type="hidden" name="ag" value="" node-type="ag">
+				<input type="hidden" name="randcode" value="" node-type="randcode">	
+				<input type="hidden" name="mask_mobile" value="" node-type="mask_mobile">
+				<input type="hidden" name="mask_email" value="" node-type="mask_email">
+				<input type="hidden" name="selectmobile" value="" node-type="selectmobile">
+				<input type="hidden" name="mask_ssomail" value="" node-type="mask_ssomail">
+				<input type="hidden" name="mask_wbmail" value="" node-type="mask_wbmail">
+				<input type="hidden" name="selectemail" value="" node-type="selectemail">
+				<input type="hidden" name="typetosms" value="" node-type="typetosms">	    
+		        <p class="info_tl">您绑定了不同的手机号，请选择其中任意一个：</p>
+		        <div class="retrv_form">
+		        	<div class="info_list clearfix">
+			          <div class="ipt_erro" style="display:none" node-type="error-tip">错误提示</div>
+			          <div class=" mb_num">
+				        <label><input type="radio" name="selectmobile" node-type="field-mobiles" value="1"></label>
+				      </div>
+				      <div class=" mb_num">
+				        <label><input type="radio" name="selectmobile" node-type="field-mobiles" value="2"></label>
+				      </div>
+		        	</div>        
+			    	<div class="info_submit"><a href="#" class="btn_sub" node-type="submit-trigger"><span>提&nbsp;&nbsp;交</span></a></div>
+				    <div class="tip" style="display:none">忘记登录名？<a href="http://help.weibo.com/appeal/forget" target="_blank">请试试找回登录名</a></div>
+				</div>
+			</form>
+		</div>
+	
+		<!--短信验证码-->
+	    <div class="opt_rslt clearfix" style="display:none" id="fill-door-div">
+	   		<form name="form_confirm" id="fill-door-form">
+				<input type="hidden" name="md5_str" value="11d090941f73dce60e3419347815d496" node-type="md5_str">
+				<input type="hidden" name="time" value="1417446790" node-type="time">
+				<input type="hidden" name="entry" value="weibo" node-type="entry">
+				<input type="hidden" name="type" value="sms" node-type="type">
+				<input type="hidden" name="from" value="" node-type="from">
+				<input type="hidden" name="loginname" value="" node-type="loginname">
+				<input type="hidden" name="mobile" value="" node-type="mobile">
+				<input type="hidden" name="email" value="" node-type="email">
+				<input type="hidden" name="ag" value="" node-type="ag">
+				<input type="hidden" name="randcode" value="" node-type="randcode">	
+				<input type="hidden" name="mask_mobile" value="" node-type="mask_mobile">
+				<input type="hidden" name="mask_email" value="" node-type="mask_email">
+				<input type="hidden" name="selectmobile" value="" node-type="selectmobile">
+				<input type="hidden" name="mask_ssomail" value="" node-type="mask_ssomail">
+				<input type="hidden" name="mask_wbmail" value="" node-type="mask_wbmail">
+				<input type="hidden" name="selectemail" value="" node-type="selectemail">
+				<input type="hidden" name="typetosms" value="" node-type="typetosms">	       
+			    <p class="info_tl" id="step2_tip">短信验证码已经发送到您的手机上，请在下框中输入：</p>
+			    <div class="retrv_form">
+			       <div class="ipt_erro" style="display:none" node-type="error-tip">错误提示</div>
+			       <div class="info_list clearfix" style="display:none;">
+			              <div class="ipt">
+			              	<input class="reg_ipt" type="text" value="" maxlength="6" node-type="field-door" name="randcode">
+			                  <div class="attachment"><a href="javascript:void(0);" id="resend">重新发送验证码</a></div>
+			              </div>
+			              <div class="tips" node-type="field-door-tip" style="display:none">
+			              	<p class="erro">
+			              		<span class="icon_del"></span>请先发送短信
+			                  </p>
+			              </div>
+			       </div>
+			       <div class="info_submit">
+			       		<div class="ipt">
+			           		<a href="#" class="btn_sub" node-type="submit-trigger"><span>我已发送短信</span></a>
+			                <div class="sub_tip">无法使用手机找回密码? 请使用<a href="javascript:void(0);" id="redirect">在线申诉找回密码</a>。</div>
+			            </div>                        
+			       </div>
+			     </div>
+		   </form>
+		   <div class="clearfix">
+		   		<span><br><br>*温馨提示：此处并非是向您的手机发送验证码，而是需要您发送短信，<span style="font-weight:bold;color:red">发送后不会收到短信回复</span>，<br>仅需在您成功发送短信后直接点击按钮即可。</span>
+		   </div>
+	   </div>
+	   <!--/短信验证码-->
+
+		<form action="http://login.sina.com.cn/member/getpwd/getpwd1.php" method="post" style="display:none" id="redirect-form">
+			<input type="hidden" name="appgroup" value="" node-type="appgroup">
+			<input type="hidden" name="loginname" value="" node-type="user">	
+			<input type="hidden" name="md5_str_b" value="" node-type="md5_str_b">
+			<input type="hidden" name="type" value="sms" node-type="type">
+			<input type="hidden" name="entry" value="weibo" node-type="entry">
+			<input type="hidden" name="time" value="" node-type="time">
+			<input type="hidden" name="select" value="1" node-type="select">
+		</form> 
+		<div class="retrv_info clearfix" style="display:none" id="change-pwd-div">
+		 	<!--密码修改-->
+			<form name="change_pwd" id="change-pwd-form">
+				<input type="hidden" name="md5_str" value="11d090941f73dce60e3419347815d496" node-type="md5_str">
+				<input type="hidden" name="time" value="1417446790" node-type="time">
+				<input type="hidden" name="entry" value="weibo" node-type="entry">
+				<input type="hidden" name="type" value="sms" node-type="type">
+				<input type="hidden" name="from" value="" node-type="from">
+				<input type="hidden" name="loginname" value="" node-type="loginname">
+				<input type="hidden" name="mobile" value="" node-type="mobile">
+				<input type="hidden" name="email" value="" node-type="email">
+				<input type="hidden" name="ag" value="" node-type="ag">
+				<input type="hidden" name="randcode" value="" node-type="randcode">	
+				<input type="hidden" name="mask_mobile" value="" node-type="mask_mobile">
+				<input type="hidden" name="mask_email" value="" node-type="mask_email">
+				<input type="hidden" name="selectmobile" value="" node-type="selectmobile">
+				<input type="hidden" name="mask_ssomail" value="" node-type="mask_ssomail">
+				<input type="hidden" name="mask_wbmail" value="" node-type="mask_wbmail">
+				<input type="hidden" name="selectemail" value="" node-type="selectemail">
+				<input type="hidden" name="typetosms" value="" node-type="typetosms">		<input type="hidden" id="key" name="key" value="BD325CE52FC6BA090AC0C7A2039236587F99C30FA518F601F2AD33019514EE5A4340A964853E1BDF5374AB4AC22F5CFF3288E5DB94E6752B4999972DF4E23DACACAE4E4DCFB6CBAE256F1B19C4BA892D54C7A3E068F93AB47EC50635556FC223F02CB1F520631E2F03E5509B6C1E24DFB7962BCD6DC74159BF0E5AFC03D9A00D">
+			 	<div class="retrv_form">
+				 	<p class="info_tl" style="padding-left:50px" node-type="active_tip"></p>
+			 		<div class="ipt_erro" style="display:none" node-type="error-tip">错误提示</div>
+			         <div class="info_list clearfix">
+			         	<div class="tit">
+			             	<i>*</i>重置密码：
+			             </div>
+			             <div class="ipt">
+			             	<input class="reg_ipt" type="password" value="" node-type="field-password" name="password1">
+			                 <div class="attachment"></div>
+			             </div>
+			            <div class="tips" node-type="field-password-tip" style="display:none">
+			             	<p class="suggest">
+			             		<span class="icon_suggest"></span>密码应由字母（区分大小写）、数字、符号组成 
+			                 </p>
+			             </div>
+			         </div>
+			         <div class="info_list clearfix">
+			         	<div class="tit">
+			             	<i>*</i>确认密码：
+			             </div>
+			             <div class="ipt">
+			             	<input class="reg_ipt" type="password" value="" node-type="field-cPassword" name="password2">
+			                 <div class="attachment"></div>
+			             </div>
+			            <div class="tips" node-type="field-cPassword-tip" style="display:none">
+			             	<p class="suggest">
+			             	<span class="icon_suggest"></span>密码应由字母（区分大小写）、数字、符号组成 
+			                 </p>
+			             </div>
+			         </div>
+			         <div node-type="clearsafemail" style="display:none">
+					 	<div class="check_maildress">
+			            	我们注意到您是使用注册邮箱找回的密码，请确认您设置的安全邮箱是否有效。<br>
+			若您的安全邮箱已经失效，您可以删除安全邮箱：
+			            </div>
+						<div class="info_list clearfix">
+			                    	<div class="tit">
+			                        	删除安全邮箱：
+			                        </div>
+			                        <div class="ipt">
+			                        	<input type="checkbox" name="delsafeemail" class="checkbox rmmail" value="1">
+			                        </div>
+						</div>         
+					 </div> 			
+			         <div class="info_submit">
+			         	<div class="ipt">
+			             	<a href="#" class="btn_sub" node-type="submit-trigger"><span>提&nbsp;&nbsp;交</span></a>
+			             </div>
+			         </div>
+			     </div>
+			     <!--/录入信息-->
+			 </form>
+		 </div>
+		<div class="opt_rslt clearfix" style="display: none" id="success">
+		   	<h2 class="tl"><span class="icon_succ_42"></span><span></span>您好!您的密码已经修改成功!</h2>
+		       <div class="rtv_succ" id="clearmailsucc">同时，您的安全邮箱已被清除。</div>
+			   <div class="log_ck">
+		       <p class="ck_msg">建议您立即检查安全信息是否有异常</p>
+		      <p class="ck_msg" id="succ_redirect">5秒后回到您找回密码前的页面</p>
+		       
+		       <a href="#" class="btn_sub" id="succ_redirect_sec"><span>检查安全信息</span></a>
+		       </div>
+		</div>
+	</div>
+	<div class="reg_lang"></div>
+		<div class="reg_foot">
+		</div>
+	</div>
+	<script type="text/javascript" charset="utf-8" src="/js/STK/js/gaea_1_19.js"></script>
+	<script type="text/javascript">
+	    var $CONFIG = {};
+		//在这里输出配置信息
+	    	$CONFIG.js_debug_mode = false;
+		
+		$CONFIG.js_files = [
+			'v1/apps/member/js/forgot/bymobile.js?v=20140922'
+		];
+    </script>
+	<script type="text/javascript" charset="utf-8" src="/js/v1/apps/boot/js/boot.js"></script><script type="text/javascript" charset="utf-8" src="/js/v1/apps/member/js/forgot/bymobile.js?v=20140922"></script>
+	<div id="GWDANG_HAS_BUILT"></div>
+	</body>
+</html>

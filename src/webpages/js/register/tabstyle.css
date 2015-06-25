@@ -1,0 +1,31 @@
+body,div,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+margin: 0;
+padding: 0;
+}
+
+a { color:#666666; text-decoration:none; }
+a:hover { text-decoration:underline; }
+input { font-size:18px; padding:5px; }
+textarea { font: 16px "Lucida Grande", Verdana, Arial, sans-serif; }
+html { font-size: 13px; font-family: "Lucida Grande", Verdana, Arial, sans-serif; }
+.info { font-size:10px; color:#999999; }
+.output * { font-size:15px; }
+.output strong { color:#4b8df9; }
+.total { font-size:18px; margin:10px; }
+.back { margin-left:auto; margin-right:auto; padding: 1em; width: 500px; }
+.tweeter { background-color:#4b8df9; border: 1px dotted gray; padding: 1em; min-height:75px; font: 16px "Lucida Grande", Verdana, Arial, sans-serif; }
+.tweeter img { float: left; margin:5px; }
+.error { background-color:#CC0000; border: 1px dotted gray; padding: 1em; }
+
+#heading { display: block; text-align: left; margin-bottom: 1em; font-size:16px;}
+#heading * { display: inline; padding: 4px; user-select: none; cursor: pointer; vertical-align: middle; }
+#heading li.active { background-color: #4b8df9; border-radius: 3px; -webkit-border-radius: 3px; -opera-border-radius: 3px; -moz-border-radius: 3px; }
+.wrapper { border: 1px dotted gray; margin-left:auto; margin-right:auto; padding: 1em; width: 650px; }
+#panes { text-align: justify; border-style: none; margin: 0 1em 0 1em; }
+#panes h1 { width: 400px; margin: 0 auto 1em auto; line-height: 1.2em; }
+#panes form { width: 400px; margin: 0 auto 1em auto; line-height: 1.2em; }
+#panes form * { margin:10px; }
+#about p { width: 400px; margin: 0 auto 1em auto; line-height: 1.2em; }
+#panes div div { overflow: hidden; }
+#previous { float: none; cursor: pointer; }
+#next { float: none; cursor: pointer; }

@@ -1,0 +1,30 @@
+.syncButtonSpacing{margin:3px 10px 0 0;}
+.screen-head{margin:0 0 15px -2px;padding:0;line-height:18px;}
+.connectionsNav.secondaryNavFlat{margin-left:-1px;}
+#connections-overview-tab .connection_section_left{float:left;width:330px;}
+#connections-overview-tab .connection_section_right{float:right;width:330px;}
+#connections-overview-tab .red_label{font-size:14px;font-weight:bold;color:#333333;display:block;padding-bottom:7px;margin-left:3px;}
+#connections-overview-tab .grey_shadow_box{border:1px solid #cccccc;width:298px;padding:15px;box-shadow:0px 13px 10px -4px #cccccc;-moz-box-shadow:0px 13px 10px -4px #cccccc;-webkit-box-shadow:0px 13px 10px -4px #cccccc;margin-bottom:13px;}
+#connections-overview-tab .padding_25{padding-top:25px;}
+#connections-overview-tab .padding_20{padding-top:20px;}
+#connections-overview-tab .connIcon{float:left;}
+#connections-overview-tab .connInfo{float:left;max-width:175px;min-height:50px;}
+#connections-overview-tab .connName{padding:7px 0 0 7px;}
+#connections-overview-tab .connName .name{font-size:14px;font-weight:bold;color:#333333;line-height:12px;float:left;margin-bottom:5px;margin-right:10px;text-decoration:none;}
+#connections-overview-tab .connName .editIcon{float:left;background:transparent url('/iv/common/styles/images/edit.png') no-repeat 0 0;width:12px;height:12px;}
+#connections-overview-tab .connName .editText{float:left;padding-left:5px;line-height:12px;text-decoration:none;color:#999999;font-size:11px;display:none;}
+#connections-overview-tab .grey_shadow_box:hover .editText{display:inline;}
+#connections-overview-tab .connCount{float:right;font-size:30px;color:#999999;font-weight:bold;line-height:27px;text-decoration:none;display:none;}
+#connections-overview-tab .zeroCount{float:right;font-size:30px;color:#333333;font-weight:bold;line-height:27px;display:none;}
+#connections-overview-tab .connDetails{border-top:1px solid #cccccc;clear:both;padding-top:15px;display:none;}
+button.addConnections{text-align:center;font-weight:bold;color:#333333;width:54px;height:23px;font-size:12px;cursor:pointer;}
+#connections-overview-tab .connLoader{float:right;margin-top:5px;text-align:center;width:20px;}
+#connections-overview-tab .socialIcons{height:12px;clear:both;padding-bottom:15px;padding-top:13px;}
+#connections-overview-tab .socialIcons span{float:left;margin-right:6px;background-image:url('/iv/common/styles/images/connections_social.png');height:12px;width:13px;}
+#connections-overview-tab .facebookIcon{background-position:26px 0px;}
+#connections-overview-tab .outlookIcon{background-position:0px 0px;}
+#connections-overview-tab .linkedinIcon{background-position:13px 0px;}
+#connections-overview-tab .showCounts a{text-decoration:none;color:#006699;font-size:11px;}
+#connections-overview-tab .showCounts span.dull{font-size:11px;font-style:italic;color:#999999;margin-right:10px;}
+#connections-overview-tab .showCounts .grey{color:#999999;}
+#connections-overview-tab .companyName{font-size:11px;color:#666666;padding-top:3px;padding-bottom:15px;clear:both;}

@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+	content="application/x-www-form-urlencoded; charset=utf-8" />
+<link rel="stylesheet" href="css/jquery-ui-1.8.22.custom.css"
+	media="screen" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css"
+	href="css/mainpage/companyBuzzCombo_45a90ca75d118951bb8d2b37aa3f2775.css" />
+<link rel="stylesheet" type="text/css"
+	href="css/mainpage/css_common_new_242028a5d41bdafa8f2036070a4c0ef8.css" />
+<link rel="stylesheet" type="text/css"
+	href="css/mainpage/companyPeopleCombo_ebac1e9698523b8a6ebf5ebee54a3a06.css" />
+<link rel="stylesheet" type="text/css"
+	href="css/mainpage/companyOverview_2d7ad1720c973c60869a72b3cf11e94b.css" />
+<link rel="stylesheet" type="text/css"
+	href="css/mainpage/companyOverview_e59380c6dcf832cc0bc8a0e24c5398c3.css" />
+<link href="css/mainpage/listBuildCombo.css" rel="stylesheet"
+	type="text/css" />
+<link href="css/mainpage/watchlistCombo.css" rel="stylesheet"
+	type="text/css" />
+<link
+	href="css/mainpage/personCombo_d700f16aaecffb717ad032042c22110c.css"
+	rel="stylesheet" type="text/css" />
+<link href="css/mainpage/jpaginate.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/mystyle.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="js/json2.min.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/backbone.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ba-linkify.js"></script>
+<script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="js/require-withcomments.js"></script>
+<script src="js/tag-it.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/popup.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/mainpage/mybackbone.js"></script>
+<script type="text/javascript">
+	$('form').validate();
+</script>
+<title>脉拓 -- 脉入云端 拓展商机</title>
+</head>
+
+<body>
+	<div class='banner'></div>
+	<div id="wrapper">
+		<div id="header">
+			<div class="logo">
+				<img src="image/logo.png" />
+			</div>
+			<div class="search_box">
+				<!--  <form class="search_form" method="post" action="">
+					<input id="searchbox" type="text" class="s" name="searchbox" value="" placeholder="搜索" style="border:0;"/> 
+					<input type="image" src="image/search_bt.png" width="28" height="20" class="go" alt="Search" title="Search" />
+					<input type="submit" style="display:none;" />
+				</form>-->
+				<input id="searchbox" type="text" class="s" name="searchbox"
+					value="" placeholder="搜索" style="border: 0;" /> <input
+					type="image" src="image/search_bt.png" width="28" height="20"
+					class="go" alt="Search" title="Search" />
+			</div>
+			<div class="top_menu">
+				<ul>
+					<li><a href="#"><img src="image/speech.png" /></a></li>
+					<li class="menuDiv"></li>
+					<li><a href="" class="detailProfile">个人资料</a></li>
+					<li class="menuDiv"></li>
+					<li><a href="#"><img src="image/setting.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mainContent">
+			<div id="sideBar">
+				<div style="float: left; width: 100%;">
+					<div class="padded_4px clear"></div>
+					<div class="sideBarTitle">最近浏览</div>
+					<img
+						src="https://insideview.exceda.com/iv/common/static/styles/images/sidebar-header-tip_bfe8dcabcd4185b8b4a6eb4f231cba01.png"
+						style="margin-top: -1px; position: absolute;" />
+						<div class="padded_8px"></div>
+						<div id="visitHistoryList" style="padding-left: 5px;">
+						</div>
+				</div>
+			</div>
+			<div class="col2">
+				<div id="menu_box">
+					<div class="mainmenu">
+						<ul>
+							<li><a id="homePage" class="menu_tab menu_bg" href="#">首页</a></li>
+							<li><a class="menu_tab" href="#">动态</a></li>
+							<li><a class="menu_tab" id="watchlistPage" href="#">关注</a></li>
+							<li><a class="menu_tab" id="searchPage"
+								href="javascript:void(0);">查询</a></li>
+							<li><a class="menu_tab" href="#">人脉</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="outerGreyBox">
+					<div class="mainGreyBox">
+						<div class="content-wrapper">
+							<div style="clear: both;" class="section_head">
+								<span class="section_header"> Track </span>
+							</div>
+							<div class="section_modules" style="padding: 30px 0px 60px 0px;">
+								<div class="section_modules_plain right" id="table_outer">
+									<div class="section_modules_help">
+										<a class="section_modules_content_links" href="#"> <span
+											class="section_label">记录</span>
+										</a> <img id="t11ttphook2"
+											src="css/images/Info_2920047a409e3aab68b043316e03e9e3.png"
+											alt="Help" height="16" width="16" style="float: right;" />
+										<div style="clear: both;"></div>
+									</div>
+									<div class="section_modules_image">
+										<a href="#"> <img
+											src="css/images/magnify_big_c71a8a3a7c6594b2021302dc0cc34be2.png"
+											title="Build a List" alt="Build a List" /></a>
+									</div>
+									<div class="section_modules_content">
+										<b> <a class="section_modules_content_links" href="#">
+												<span class="section_content"> <span class="huge">0</span>
+													&nbsp;<span class="small">历史记录</span>
+											</span>
+										</a></b>
+									</div>
+								</div>
+								<div class="section_modules_plain left" id="table_outer">
+									<div class="section_modules_help">
+										<a class="section_modules_content_links" href="#"> <span
+											class="section_label"> 公司和人员 </span>
+										</a> <img id="t11ttphook1"
+											src="css/images/Info_2920047a409e3aab68b043316e03e9e3.png"
+											alt="Help" height="16" width="16" style="float: right;" />
+										<div style="clear: both"></div>
+									</div>
+									<div class="section_modules_image">
+										<a href="javascript(0);" class="j_to_watchlist"> <img
+											src="css/images/envelope_big_7474d21ceaa69c313ff786d5ec1b3827.png" />
+										</a>
+									</div>
+									<div class="section_modules_content">
+										<b> <a href="javascript(0);" class="section_modules_content_links j_to_watchlist">
+												<span class="section_content"> <span
+													class="huge home_company"></span>&nbsp;<span class="small">公司</span>
+											</span>
+										</a> <br /> <a href="javascript(0);" class="section_modules_content_links j_to_watchlist">
+												<span class="section_content"> <span
+													class="huge home_person"></span>&nbsp;<span class="small">人员</span>
+											</span>
+										</a>
+										</b>
+									</div>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script id="companyWatchList-template" type="text/template">
+		<div class="data" name="companyName" style="width:25%;">
+			<span class="row-text">
+				<a class="company-hover bluefont" id="company_<%=companyId%>" name="FULL_725050" href="#"><%=companyName%></a>
+			</span>
+		</div>	
+		<div class="data" name="location" style="width:25%;">
+			<span class="row-text"><%=location%></span>
+		</div>	
+		<div class="data" name="revenue" style="width:14%;">
+			<span class="row-text">
+				<div align="right" style="margin-right:14px;"><%=revenue%></div>
+			</span>
+		</div>	
+		<div class="data" name="numberOfEmployees" style="width:14%;">
+			<span class="row-text">
+				<div align="right" style="margin-right:30px;"><%=numberOfEmployees%></div>
+			</span>
+		</div>	
+		<div class="data" name="agentResults" style="width:17%;">
+			<span class="row-text">
+				<div align="center" class="agentCount">
+					<div class="indicator">0</div>
+				</div>
+			</span>
+		</div>	
+		<div class="data" name="delete" style="width:4%;">
+			<span class="row-text">
+				<a id="delete_725050" href="javascript:void(0);">
+					<div class="deleteIcon"></div>
+				</a>
+			</span>
+		</div>   
+	</script>
+	<script id="peopleWatchList-template" type="text/template">
+	<div class="data" name="execName" style="width:20%;">
+		<span class="row-text">
+			<a class="contact-hover bluefont" name="FULL_2867257_12091985" href="/iv/executiveinfo.do?methodToCall=overview&amp;id=12091985"><%=execName%></a>
+		</span></div>	
+		<div class="data" name="title" style="width:38%;">
+			<span class="row-text"><%=title%></span>
+		</div>	
+		<div class="data" name="companyId" style="width:37%;">
+			<span class="row-text">
+				<a class="company-hover bluefont" name="FULL_2867257" href="/iv/companyinfo.do?methodToCall=overview&amp;id=2867257"><%=companyName%></a>
+			</span>
+		</div>	
+		<div class="data" name="delete" style="width:4%;">
+			<span class="row-text">
+				<a id="delete_11062563" href="javascript:void(0);">
+					<div class="deleteIcon"></div>
+				</a>
+			</span>
+		</div>   
+	</script>
+	<script id="visitHistoryList-template" type="text/template">
+	<div class="float_left">
+		<img style="vertical-align: top; padding: 2px 5px 2px 10px" src="<%=type=='person'?'/css/images/person-icon.png':'/css/images/company-icon.png'%>" alt="<%=type%>" title="<%=type%>" class="recent-image" /> 
+		<span class="recently_viewed recent-viewed-item historyName"> 
+			<a title="<%=name%>" href="/mainpage.html">
+				<%=name%>
+			</a>
+		</span><br>
+	</div>
+	</script>
+</body>
+</html>

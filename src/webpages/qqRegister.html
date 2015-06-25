@@ -1,0 +1,88 @@
+<head id="Head1">
+<meta name="viewport" content="width=device-width">
+<title>
+	内参注册页
+</title
+><meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="/css/qqRegister.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="/js/json2.min.js"></script>
+<script src="js/register/qqRegister.js" type="text/javascript"></script>
+<body>
+<div>
+<form method="post" id="autohomeregister">
+        <div class="header">
+            <!--  <div class="logo">
+                <a href="http://www.autohome.com.cn/">
+                    <img src="http://x.autoimg.cn/account//images/logo_auto.png?v=2014-02-13" alt="汽车之家"></a>
+            </div>-->
+            <!-- <div class="t_tit">
+                <img src="http://x.autoimg.cn/account//images/t_tit.png" alt="我的汽车网站，我的汽车之家">
+            </div> -->
+            <div class="tr_link">
+                <a href="http://www.maitool.com:8080/login.html" target="_blank">已有账号？</a> <a class="btn_fastlogin" href="http://www.maitool.com:8080/login.html" target="_blank">直接登录</a>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="contip">
+                <span class="fontorange">欢迎您！用户名</span> 只需填写以下几项，即可立即拥有云梯账号！如有账号，请<a href="http://www.maitool.com:8080/login.html" target="_blank">绑定登录</a>
+            </div>
+            <div class="enroll_left no_border">
+                <table cellpadding="0" cellspacing="0" border="0" class="tab_enroll">
+                    <tbody><tr>
+                        <th>
+                            <span class="xing">*</span>用户名：
+                        </th>
+                        <td>
+                            <input type="text" class="txt_01" id="UserName" name="UserName" value="" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span class="xing">*</span>手机号：
+                        </th>
+                        <td>
+                            <input class="txt_01" type="text" id="Mobile" name="Mobile" value="" maxlength="11" required />
+                            <span class="mobile_tips" style="display:none;color:red;">请输入您的11位手机号码</span>
+                            <div class="pointbar">
+                                <span id="phoneSelect">
+                                    <p>注册后，您可以使用手机号做登录名。</p>
+                                </span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr id="Downstream">
+                        <th>
+                            <span class="xing">*</span>验证码：
+                        </th>
+                        <td>
+                            <input class="btn_verify j_mobole_code_btn" id="MobileCode1" style="cursor: default;" type="button" value="免费获取验证码">
+                            <input id="ValidCode" name="ValidCode" class="txt_02" type="text" required>
+                            <span class="verify_tip" id="ValidCodePr">
+                            </span>
+                            <div class="pointbar">
+                                <p class="tel_hint" id="mobileCodePlease">
+                                    	请输入您收到的6位验证码，验证码24小时内有效。
+                                </p>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>&nbsp;
+                        </th>
+                        <td>
+                            <input type="submit" class="btn_now j_register_submit" id="SubmitBtn" name="SubmitBtn" value="立即注册">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </form>
+    </body>
+    </div>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>内参注册</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="js/register/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="js/register/tabstyle.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="js/register/demo.css" media="all" />
+	<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+	<script src="js/register/mootools.v1.11.js" type="text/javascript"></script>
+	<script src="js/register/sliding-tabs.js" type="text/javascript"></script>
+	<script src="js/register/reg_login.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="js/jquery-ui-lib.custom/jquery-ui.min.css"/>
+	<script src="js/jquery-ui-lib.custom/jquery-ui.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>脉入云端 拓展商机</h1>
+    </header>       
+      <div  class="form">
+			<div id="heading"> 
+				<ul id="buttons">
+				  <li>邮箱注册</li>
+				  <li>手机注册</li>
+				</ul>
+			</div>
+    		<form id="contactform"> 
+				<div id="panes">
+				<div id="content">
+				<div class="pane" id="email_register_action">
+					<p class="contact"><label for="email">邮箱</label></p> 
+					<input class="hoverevent" id="email" name="email_address" placeholder="请填写邮箱" type="email">                
+					 
+					<p class="contact"><label for="password">密码</label></p> 
+					<input class="hoverevent" type="password" id="password" name="email_password" placeholder="请填写密码"> 
+					<input id="email_reg" class="buttom" name="submit" tabindex="5" value="注册" type="button">
+					<a href="/login.html">
+						<input class="buttom" name="submit" tabindex="5" value="直接登录" type="button">
+					</a>
+                </div>
+				<div class="pane" id="phone_register_action">
+					<p class="contact"><label for="phone">手机号</label></p> 
+					<input id="phone" class="hoverevent" name="phone_number" placeholder="请填写手机号码" style="width:280px;" type="text">
+					<input id="phone_veri" class="buttom" name="phone_veri" value="发送手机验证码" type="button"> <br>
+					<p class="contact"><label for="phone">手机验证码</label></p> 
+					<input id="phone" class="hoverevent" name="phone_veri_number" placeholder="请填写手机验证码"  type="text"> <br>
+					
+					<p class="contact"><label for="password">密码</label></p> 
+					<input type="password" class="hoverevent" id="password" name="phone_password" placeholder="请填写密码"> 
+					<input id="phone_reg" class="buttom" name="submit" tabindex="5" value="注册" type="button">
+					<a href="/login.html">
+						<input class="buttom" name="submit" tabindex="5" value="直接登录" type="button">
+					</a>
+				</div>				
+				</div>
+				</div>
+			</form> 
+	</div>      
+</div>
+</body>
+<script type="text/javascript" charset="utf-8">
+		window.addEvent('load', function () {
+			myTabs = new SlidingTabs('buttons', 'panes');
+			
+			// this sets it up to work even if it's width isn't a set amount of pixels
+			window.addEvent('resize', myTabs.recalcWidths.bind(myTabs));
+		});
+		
+</script>
+</html>

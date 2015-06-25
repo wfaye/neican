@@ -1,0 +1,207 @@
+/* CSS Document */
+
+body{ font-family:\5b8b\4f53,Arial,Helvetica,sans-serif; font-size:12px; background:#fafbfd;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,form,fieldset,input,textarea,blockquote{ padding:0; margin:0;}
+table,td,tr,th{ font-size:12px;}
+input{ vertical-align:middle;}
+li{ list-style-type:none;}
+img{ vertical-align:top;border:0;}
+ol,ul{ list-style:none;}
+caption{ text-align:left;}
+h1,h2,h3,h4,h5,h6{ font-size:12px; font-weight:normal;}   
+q:before,q:after{ content:'';}   
+abbr,acronym{ border:0;}
+address,caption,cite,code,dfn,em,th,var{ font-weight:normal; font-style:normal;}
+
+.clear{ clear:both; height:0; line-height:0; font-size:0px; overflow:hidden;}
+/*文字链接*/
+a:link,a:visited{ color:#3b5998; text-decoration:none;}
+a:hover{ color:#d60000; text-decoration:none;}
+
+.fontw{ font-weight:bold;}
+.fontorange{ color:#ff6600;}
+.fontored{ color:#d50002;}
+.disb{display:block;}
+/*背景图*/
+.enroll_bottom,.btn_qq,.btn_sina,.btn_feedback,.ic_right,.ic_rightno,.ic_wrong,.ic_plaint,.triangle{ background:url(../images/enroll_bg.png?v=20140527) no-repeat;}
+/*结构*/
+.header{ width:960px; margin:0 auto; padding:20px 0 15px 0; overflow:hidden; border-bottom:4px solid #17459e;}
+.content{ width:928px; margin:0 auto; padding:0 15px; border:1px solid #d0d0d0; border-top:1px solid #d7d7d7; border-bottom:0;background:#ffffff;}
+/*头部*/
+.logo{ float:left;}
+.t_tit{ float:left; margin:30px 0 0 18px;}
+.tr_link{ line-height:24px; margin-top:30px; float:right;}
+.btn_fastlogin{ display:inline-block; width:70px; height:24px; line-height:24px; text-align:center; background-color:#ff6600; font-size:12px;}
+.btn_fastlogin:link,.btn_fastlogin:visited,.btn_fastlogin:hover{ color:#FFFFFF;}
+/*内容*/
+.contip{ line-height:22px; padding:10px 0; margin-bottom:10px; border-bottom:1px dotted #e8e8e8; color:#999999;}
+.enroll_left{ width:750px; float:left; /*border-right:1px solid #e8e8e8;*/}
+div.no_border{ min-height:260px;_min-height:260px; border:0;}
+.xing{ margin:0 3px; color:#d60000;}
+.tab_enroll{ width:750px;}
+.tab_enroll th,.tab_enroll td{ line-height:24px; padding:10px 2px;}
+.tab_enroll th{ width:23%; text-align:right; vertical-align:top; color:#333333;}
+.txt_01,.txt_02,.txt_03{ width:200px; height:22px; line-height:22px; padding:0 5px; border:1px solid #ccd3e4;margin-right:5px;}
+.txt_02{ width:90px;}
+.txt_03{width:134px;border-left:0px;float:left;}
+.int_rad{ margin-right:3px; position:relative; top:-2px;}
+.int_tarea{ width:430px; height:80px; line-height:18px; margin-top:10px; padding:3px 0 3px 5px; color:#666666; font-size:12px; resize:none;}
+.btn_verify{ width:105px; height:24px; line-height:19px; margin-right:5px; cursor:pointer;}
+.btn_submit,.btn_submitgray{ display:inline-block; width:160px; height:32px; line-height:32px; margin:5px 0; text-align:center; background-color:#ff6600; font-size:14px;border:0px;color:#ffffff; cursor:pointer;}
+.btn_submitgray:link,.btn_submitgray:visited,.btn_submitgray:hover{ color:#FFFFFF;}
+.btn_submitgray{background-color:#d0d0d0;margin-left:10px;}
+.btn_now{ display:inline-block; width:85px; height:32px; line-height:32px; margin-right:10px; text-align:center; background-color:#ff6600; font-size:14px;border:0px;color:#ffffff; cursor:pointer;}
+.lab_sex{ display:inline-block; width:50px; font-size:14px;}
+
+.pointbar{ line-height:20px; padding-top:3px; color:#999999;}
+.msgarea{ width:295px; padding:3px 8px; margin-top:3px; border:1px solid #ccd3e4; background-color:#f9f9f9; color:#666666;}
+.msgarea p{ line-height:25px;}
+.msgarea p .fontw{ color:#333333;}
+.msglight{ color:#999999;}
+/*验证提示*/
+.ic_right,.ic_rightno,.ic_wrong,.ic_plaint{ display:inline-block; width:16px; height:16px; line-height:16px; overflow:hidden; background-position:-226px -27px; position:absolute; margin:2px 0 0 -20px; *margin:-2px 0 0 -20px;}
+.ic_wrong{ background-position:-252px -27px;}
+.ic_plaint{background-position:-278px -27px;}
+.ic_rightno{margin:4px 0 0 -20px;}
+
+.ph_right{ line-height:20px; padding:5px 0 0 20px; color:#333333;}
+.verify_tip,.verify_tipno{ display:inline-block; line-height:20px; padding:3px 0 0 25px; color:#333333; vertical-align:middle;}
+.verify_tipno{padding:3px 0 0 5px;}
+
+/*密码强度*/
+.pwdline{ height:14px; clear:both; margin-top:10px;}
+.pwds,.pwdsb{ width:60px; height:14px; line-height:15px; float:left; overflow:hidden; text-align:center; color:#FFFFFF; border-right:1px solid #FFFFFF; background-color:#ff9900;}
+.pwdsb{ background-color:#ff6600;}
+
+.enroll_right{ width:177px; float:left;}
+.enroll_right p{ line-height:16px; padding:20px 0 15px 20px; color:#999999;}
+.btn_qq,.btn_sina{ display:inline-block; width:80px; height:29px; line-height:29px; text-align:center; padding-left:23px; margin:0 0 10px 40px; background-color:#f5f5f5; background-position:0 -27px;}
+.btn_sina{ background-position:-113px -27px;}
+.btn_qq:link,.btn_qq:visited,.btn_sina:link,.btn_sina:visited{ color:#999999;}
+.btn_qq:hover,.btn_sina:hover{ color:#d60000;}
+
+.enroll_bottom{ height:34px; line-height:18px; text-align:right; padding-right:18px; margin:10px -16px 0 -16px; position:relative; background-position:0 17px; color:#999999;}
+.btn_feedback{ display:inline-block; padding-left:25px; background-position:-364px -27px;}
+/*密码提示*/
+.enroll_prompt,.user_prompt{width:264px;border:1px solid #CCD3E4;line-height:22px;position:absolute;padding:0 5px 0 25px;word-break:break-all;word-wrap: break-word;}
+.user_prompt{width:168px;position:static;margin:5px 0 0 0;display:block;overflow:hidden;}
+.enroll_empty{width:auto;padding:0px;padding-left:20px;margin:0px;border:none;color:#d60000;word-break:break-all;word-wrap: break-word;}
+/*底部*/
+.footer{ width:960px; margin:15px auto 0 auto; text-align:center; color:#7c7c7c;}
+.footer p .footarial{ font-family:Arial, Helvetica, sans-serif;}
+#footer{width:960px;height:90px;margin:0px auto; padding-top:8px;text-align:center;color:#6a6a6a;}
+#footer p{padding-bottom:15px;}
+#footer p a:link,#footer p a:visited {color: #01439A;text-decoration: none;}
+#footer p a:hover {color: #D60000;text-decoration: none;}
+.picrz{ position:absolute; right:60px; top:0px;}
+p.pic_p{ height:40px; line-height:40px; width:840px; padding:0 60px; position:relative; text-align:left;}
+/*海外（获取验证码）旗帜*/
+.flag_china,.flag_singapore,.flag_united,.flag_hong,.flag_singapore,.flag_hongkong,.flag_taiwan,.flag_australia,.flag_japan,.flag_canada,.flag_kingdom,.flag_korea,.flag_germany,.flag_malaysia,.flag_russia,.flag_india,.flag_macau,.flag_france,.flag_newzealand,.flag_vietnam,.flag_italy,.flag_thailand,.flag_saudiarabia,.flag_indonesia,.flag_indonesia,.flag_spain{width:16px;height:11px;display:inline-block;background: url(../images/flag.png?v=20140527?v2) no-repeat;position:absolute;margin:6px 0px 0px 6px;}
+.flag_united{background-position:0 -15px;}
+.flag_hong{background-position:0 -30px;}
+.flag_taiwan{background-position:0 -45px;}
+.flag_australia{background-position:0 -60px;}
+.flag_japan{background-position:0 -75px;}
+.flag_canada{background-position:0 -90px;}
+.flag_singapore{background-position:0 -105px;}
+.flag_kingdom{background-position:0 -120px;}
+.flag_korea{background-position:0 -135px;}
+.flag_germany{background-position:0 -150px;}
+.flag_malaysia{background-position:0 -165px;}
+.flag_russia{background-position:0 -180px;}
+.flag_india{background-position:0 -195px;}
+.flag_macau{background-position:0 -210px;}
+.flag_france{background-position:0 -225px;}
+.flag_newzealand{background-position:0 -240px;}
+.flag_vietnam{background-position:0 -255px;}
+.flag_italy{background-position:0 -270px;}
+.flag_thailand{background-position:0 -285px;}
+.flag_saudiarabia{background-position:0 -300px;}
+.flag_indonesia{background-position:0 -315px;}
+.flag_spain{background-position:0 -330px;}
+.triangle{width:5px;height:3px;display:inline-block;position:absolute;margin:11px 0px 0px 24px;*margin:12px 0px 0px 24px;background-position:-334px -34px;}
+.flag_pop{width:248px;height:186px;border:1px solid #ccd3e4;overflow-x:hidden;overflow-y:auto;position:absolute;margin:23px 0 0 0;*margin:23px 0 0 -216px;_margin:23px 0 0 -219px;background:#ffffff;z-index:99;}
+.flag_pop dt{height:32px;border-bottom:1px dotted #e7e7e7;margin-bottom:5px;padding-left:6px;color:#666666;line-height:32px;}
+.flag_pop dd a:link,.flag_pop dd a:visited{width:218px;height:24px;color:#666666;padding-left:30px;display:inline-block;}
+.flag_pop dd a:hover{width:218px;display:inline-block;background-color:#efefef;color:#333333;}
+.flag{width:65px;height:22px;line-height:22px;overflow:hidden;border:1px solid #ccd3e4;border-right:0px;float:left;}
+.flaglink{width:36px;height:22px;display:inline-block;float:left; cursor:pointer; }
+.flaghover{background-color:#f2f5f8;}
+/*升级页面*/
+.ts_bj{ padding:40px 0px 10px 0px;}
+.ts_bj p{ position:relative; margin-bottom:5px;}
+.ts_zb{ font-size:12px;} 
+.fontw16{ font-size:16px; font-weight:bold;}
+.fontw{ font-weight:bold;}
+.fontred{ color:#FF0000;}
+.fontdred{ color:#d60000;}
+.fontblack{ color:#000000;}
+.btn_y5{ width:100px; height:25px; line-height:21px; margin-right:10px; cursor:pointer; float:left; font-size:12px;}
+.title_p{text-align:center;}
+
+.weibo{text-align:right;height:22px;line-height:22px;padding-right:65px;color:#999999;}
+.weibo .weiboicon{position:absolute;margin-top:0px;*margin-top:-7px;}
+
+/*pc找密码-2013-10-10*/
+/*公共背景*/
+.step-box li .tx-l .num,.step-box li.cur .tx-l .num,.step-box li i,.step-box li.cur b,.icon-green,.icon-org{ background: url(../images/find-icon.png?v=20140527) no-repeat;}
+
+
+.ft14{font-size:14px;}
+.step-contip-box{height:42px; display:inline-block;width:100%;}
+.step-contip{ margin-bottom:10px;line-height:22px;padding:10px 0; border-bottom:1px dotted #e8e8e8;}
+.step-contip span{font-weight:bold;color:#5577bb;}
+.prompt-w{width:205px;}
+
+.step-cont{padding:10px 0 0 130px;min-height:350px;_height:350px;}
+.step-span{color:#999999;padding-left:10px;display:inline-block;line-height:20px;padding: 3px 0 0 0px; vertical-align:middle;}
+.step-bar{color:#999999;margin-top:10px;}
+.step-box{margin:15px 0 0 0;overflow:hidden;}
+.step-box li{float:left; position:relative;}
+.step-box li .tx-l{height:36px;width:180px;line-height:36px;padding-left:40px;float:left;color:#f26009; font-family:"微软雅黑";font-size:14px;display:inline-block; background-color:#fcd7c1;}
+.step-box li .tx-l .num{width:16px;float:left;height:36px;display:inline-block;margin-right:10px;}
+.step-box li .tx-l .num-one{width:10px; background-position:-13px 0;}
+.step-box li .tx-l .num-two{ background-position:-45px 0;}
+.step-box li .tx-l .num-three{ background-position:-82px 0;}
+.step-box li .tx-l .num-four{ background-position:-117px 0;}
+.step-box li i{width:15px;height:36px;float:left; display:inline-block; background-position:-18px -39px;}
+.step-box li b{display:none;}
+.step-box li.cur i{ background-position:0 -39px;}
+.step-box li.cur b{width:15px;height:36px;display:inline-block; background-position:-36px -39px; position:absolute;left:-15px;top:0px;}
+.step-box li.cur .tx-l{height:36px;line-height:36px;padding-left:40px;float:left;color:#ffffff; font-family:"微软雅黑";font-size:14px;display:inline-block; background-color:#f26009;}
+.step-box li.cur .tx-l .num{width:16px;float:left;height:36px;display:inline-block;margin-right:10px;}
+.step-box li.cur .tx-l .num-one{ background-position:0px 0;width:10px;}
+.step-box li.cur .tx-l .num-two{ background-position:-26px 0;}
+.step-box li.cur .tx-l .num-three{ background-position:-64px 0;}
+.step-box li.cur .tx-l .num-four{ background-position:-100px 0;}
+.btn_submit_s{display:inline-block; height:32px; line-height:32px; text-align:center; background-color:#ff6600; font-size:14px;border:0px;color:#ffffff; cursor:pointer;padding:0 20px;*padding:0 8px;overflow:hidden;}
+
+/*发送邮件*/
+.send{text-align:center;margin:58px 0 0 -130px;}
+.send-btn{margin-top:50px;}
+
+.retrieve{width:375px;padding-top:22px;margin-left:180px;}
+.retrieve-l{width:34px;height:34px;display:inline-block;float:left; }
+.icon-green{background-position:-54px -39px;}
+.icon-org{background-position:-90px -39px;}
+.retrieve-r{margin-left:15px;width:325px;float:left;}
+.retrieve-r h3{font-size:18px;font-family:"微软雅黑";line-height:22px;padding-bottom:13px;}
+.retrieve-r .mt05{margin-top:5px;}
+.mt20{margin-top:20px;}
+.s-else{margin-top:55px;color:#333333;line-height:22px;}
+.s-else a{margin-right:30px;}
+
+.verify-box{width:438px;height:130px; background-color:#f4f4f4;border:1px solid #d2d2d2;margin:15px 0 0 60px;padding:0 20px;}
+.verify-box li{line-height:26px;margin:10px 0 10px 0;color:#333333;}
+.verify-box li.frist{margin:10px 0 0 0;}
+.verify-box li .fr{float:right;}
+.verify-box li .ftw14{font-size:14px; font-family:"微软雅黑";color:#5577bb;}
+.verify-box li .btn{width:102px;margin:0px;height:24px;font-size:12px; line-height:22px;text-align:center; background-color:#f26009;border:0px;color:#ffffff; cursor:pointer;}
+
+.iphone-verity{line-height:40px;padding:10px 0 10px 0;margin-left:-130px; text-align:center;}
+.iphone-verity span{margin:0 20px 0 50px;}
+.iphone-verity span input{margin:-3px 10px 0 0;}
+.iphone-verity span .ftw{font-weight:bold;}
+.iphone-verity .ftw14{font-size:14px;color:#5577bb; font-family:"微软雅黑";padding:0px;margin:0px;}
+.code-pic{width:55px;float:left;margin-right:15px;}
+.btn_verify2{ height:24px; line-height:19px; margin-right:5px; cursor:pointer;}

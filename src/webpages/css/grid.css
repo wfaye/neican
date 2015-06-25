@@ -1,0 +1,58 @@
+.syncButtonSpacing{margin:3px 10px 0 0;}
+.grid{position:relative;min-height:100px;}
+.grid .header{background-color:#b4b4b4;padding:0;margin:0;clear:both;}
+.grid .header .cell{float:left;}
+.grid .header .cell.sortable:hover{background:#a0a0a0;}
+.grid .header .cell.sorted{background:#a0a0a0;}
+.grid .header .cell.right{text-align:right;}
+.grid .header .cell.center{text-align:center;}
+span.column-bar{background:url(/iv/common/styles/images/mscrm/column_bar.png) no-repeat;float:right;height:14px;width:1px;margin-top:2px;margin-bottom:2px;}
+.grid .header .cell .text{color:#ffffff;font-size:12px;font-weight:bold;text-overflow:ellipsis;padding:3px 10px 3px 10px;margin:0;overflow:hidden;white-space:nowrap;word-wrap:normal;outline:none;border:none;text-decoration:none;cursor:default;transition:0.2s all ease;-webkit-transition:0.2s all ease;-moz-transition:0.2s all ease;-o-transition:0.2s all ease;-ms-transition:0.2s all ease;display:inline-block;}
+.grid .header .cell.sortable .text{cursor:pointer;}
+.grid .header .cell.sortable .text:hover{background:#a0a0a0;}
+.grid .header .cell.sortable .ico{opacity:0.4;filter:alpha(opacity=40);display:inline-block;padding:0;margin:0 0 0 5px;vertical-align:middle;font-size:1px;height:4px;width:8px;}
+.grid .header .cell.sortable .ico{display:none;}
+.grid .header .cell.sortable.sorted .ico{display:inherit;}
+.grid .header .cell.sortable.asc .ico{background-position:-24px -58px;}
+.grid .header .cell.sortable.desc .ico{background-position:-2px -58px;}
+.grid .pagination{display:block;margin:0;padding:0;clear:both;}
+.grid .pagination .numbers{margin:10px 0;}
+.grid .pagination .numbers span{margin-right:5px;}
+.grid .pagination .numbers .num{border:1px solid #cccccc;color:#666666;cursor:pointer;font-weight:bold;padding:0 4px;text-decoration:none;}
+.grid .pagination .numbers .num.active{background:none repeat scroll 0 0 #990000;border:1px solid #333333;color:#ffffff;}
+.grid .pages{float:none;clear:both;margin:0;padding:0;width:auto;font-family:inherit;}
+.grid .pages .page{border:none;color:inherit;cursor:inherit;font-size:inherit;padding:0;margin:0;font-weight:inherit;}
+.grid .pages .page .row{clear:both;border-bottom:1px solid #cccccc;}
+.grid .pages .page .row:hover{background:#f5f5f5;}
+.grid .pages .page .row .cell{float:left;}
+.grid .pages .page .row .cell.right{text-align:right;}
+.grid .pages .page .row .cell.center{text-align:center;}
+.grid .pages .page .row .cell.sorted{background:#f5f5f5;}
+.grid .pages .page .row .cell.sorted:hover{background:#f5f5f5;}
+.grid .pages .page .row .cell .text{padding:5px 10px 5px 10px;margin:0;color:#333333;font-size:normal;font-weight:normal;}
+.grid .pages .page .row .extended{display:none;clear:both;}
+.grid .floater{position:absolute;top:0;left:0;height:100%;width:100%;opacity:0.75;background:#f1f1f1;filter:alpha(opacity=75);}
+.grid .floaterImg{position:absolute;top:50%;left:50%;margin:-16px 0 0 -16px;}
+.grid .search{margin:0px 0 5px 0;padding:5px 0 0 0;}
+.grid .search label{font-weight:bold;}
+.grid .search *{vertical-align:middle;}
+.grid .search input{padding:2px 10px 2px 10px;margin:0 5px 0 15px;border:1px solid #cccccc;border-radius:10px;width:250px;}
+.grid .search a.icon{display:inline-block;margin-right:10px;}
+.grid .search a.reset{display:none;}
+.grid .deleteIcon img{margin:4px 0 0 0;}
+.grid .deleteIcon.loading img{margin:0;}
+.grid .pages .page .row.nodata .cell .text{color:#666666;font-style:italic;}
+div.pagination-arrows{height:15px;margin-right:5px;padding:2px;border-top:1px solid #c6c6c6;}
+div.arrows{background-repeat:no-repeat;background-position:top left;width:16px;height:16px;float:left;cursor:pointer;}
+.arrows.gridPagination-end{background-position:0px 0px;}
+.arrows.gridpagination-end-disabled{background-position:0px -21px;}
+.arrows.gridpagination-end:hover{background-position:0px -42px;}
+.arrows.gridpagination-first{background-position:0px -63px;}
+.arrows.gridpagination-first-disabled{background-position:0px -84px;}
+.arrows.gridpagination-first:hover{background-position:0px -105px;}
+.arrows.gridpagination-next{background-position:0px -126px;}
+.arrows.gridpagination-next-disabled{background-position:0px -147px;}
+.arrows.gridpagination-next:hover{background-position:0px -168px;}
+.arrows.gridpagination-prev{background-position:0px -189px;}
+.arrows.gridpagination-prev-disabled{background-position:0px -210px;}
+.arrows.gridpagination-prev:hover{background-position:0px -231px;}

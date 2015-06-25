@@ -1,0 +1,244 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body {
+    background-color: #F2F2F2;
+    color: #000000;
+    font: 12px Arial,Tahoma,Verdana,Helvetica,sans-serif;
+}
+div.loadingState {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+#initialLoadingPanel > table {
+    height: 100%;
+    width: 100%;
+}
+#initialLoadingPanel > table td {
+    font-size: 150%;
+    text-align: center;
+    vertical-align: middle;
+}
+.gwt-PopupPanelGlass {
+}
+.NotificationPanel {
+}
+.nmbl-ShadowBox-Wrapper {
+}
+.RegisterRootView .busy {
+}
+.ActivityCalendarView .gwt-cal .opacity, .gwt-cal-MonthView .opacity {
+}
+.ActivityCalendarView .gwt-cal-MonthView .dayCellLabel-disabled {
+}
+.NimbleContactInfoWidget .nimbleContactWrapper-opacity {
+}
+.NimbleContactInfoWidget .nimbleContactWrapper-enabled:hover {
+}
+.FilterPanel .separator1 {
+}
+.FilterPanel .separator2 {
+}
+.AvatarsManagerWidget .avatarsManager .social .socialAvatars img.gwt-Image {
+}
+.AvatarsManagerWidget .avatarsManager .social .socialAvatars .selected img.gwt-Image {
+}
+#registerLoadingState a {
+    color: #2F88CD;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+#registerLoadingState a:hover {
+    outline: medium none;
+    text-decoration: underline;
+}
+#registerLoadingState a:active {
+    outline: medium none;
+}
+#registerLoadingState td {
+    padding: 0;
+}
+#registerLoadingState {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    padding: 0;
+    width: 100%;
+}
+#registerLoadingState td.part {
+    text-align: center;
+    vertical-align: top;
+}
+#registerLoadingState td.part > div {
+    margin: 0 auto;
+    width: 980px;
+}
+#registerLoadingState #top {
+    height: 77px;
+}
+#registerLoadingState #top div.logo {
+    background-image: url("./application/resources/register/logo.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    width: 161px;
+}
+#registerLoadingState #steps {
+    height: 195px;
+}
+#registerLoadingState #steps > div {
+    background-image: url("./application/resources/register/bg_steps.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 194px;
+    width: 980px;
+}
+#registerLoadingState #steps .CurrentStepWidget .slogan {
+    font-size: 300%;
+    padding-top: 50px;
+    text-align: center;
+}
+#registerLoadingState #steps .CurrentStepWidget .image {
+    background-image: url("./application/resources/register/2nd_step.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 59px;
+    margin: 44px auto 0;
+    width: 925px;
+}
+#registerLoadingState .LoadingStateWidget {
+    background-image: url("./application/resources/register/loader_background.png");
+    background-position: center center;
+    background-repeat: repeat;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    font-size: 140%;
+    margin-top: 20px !important;
+    min-height: 25px;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    width: 292px !important;
+}
+#registerLoadingState .LoadingStateWidget .loader {
+    background-image: url("./application/resources/register/ajax-loader-reg.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    height: 100%;
+    left: 40px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+}
+#registerLoadingState .LoadingStateWidget .text {
+    float: left;
+    margin: 6px 0 0 42px;
+    max-width: 250px !important;
+}
+#registerLoadingState .LoadingStateWidget .text .smaller {
+    font-size: 90%;
+}
+#registerLoadingState #tips {
+    height: 130px;
+}
+#registerLoadingState #tips div.dotted1, #registerLoadingState #tips div.dotted2 {
+    background-image: url("./application/resources/register/dotted_line.png");
+    background-position: 0 top;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 980px;
+}
+#registerLoadingState #tips div.dotted1 {
+    background: none repeat scroll 0 0 transparent;
+}
+#registerLoadingState #tips div.dotted1 {
+    margin-bottom: 40px;
+}
+#registerLoadingState #tips div.dotted2 {
+    background-position: 0 bottom !important;
+    padding: 34px 0;
+}
+#registerLoadingState #tips .QuickTipsWidget {
+    color: #A1A1A1;
+    font-size: 150%;
+    font-weight: bold;
+}
+#registerLoadingState #regFooter {
+    height: 57px;
+    vertical-align: bottom;
+}
+#registerLoadingState #regFooter > div {
+    background-color: #0E5187;
+    height: 57px;
+    width: auto;
+}
+#registerLoadingState #regFooter > div > table {
+    margin: 0 auto;
+    width: 980px;
+}
+#registerLoadingState #regFooter > div > table td {
+    vertical-align: top;
+}
+#registerLoadingState #regFooter > div > table td.left {
+    font-size: 90%;
+    padding-top: 20px;
+    text-align: left;
+    width: 555px;
+}
+#registerLoadingState #regFooter > div > table td.left a {
+    color: #FFFFFF;
+}
+#registerLoadingState #regFooter > div > table td.left div.copy {
+    color: #4580B6;
+    display: inline-block;
+    margin-right: 9px;
+}
+#registerLoadingState #regFooter > div > table td.left div.separator {
+    background: none repeat scroll 0 0 #4C7DA5;
+    display: inline-block;
+    height: 11px;
+    margin: 0 2px -2px;
+    width: 1px;
+}
+#registerLoadingState #regFooter > div > table td.right {
+    text-align: right;
+}
+#registerLoadingState #regFooter > div > table td.right div {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#registerLoadingState #regFooter > div > table td.right a {
+    background-image: url("./application/resources/register/footer_icons.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 34px;
+    width: 36px;
+}
+#registerLoadingState #regFooter > div > table td.right a.twitter {
+    background-position: 0 0;
+    margin-right: 3px;
+}
+#registerLoadingState #regFooter > div > table td.right a.facebook {
+    background-position: -41px 0;
+    margin-right: 5px;
+}
+#registerLoadingState #regFooter > div > table td.right a.linkedin {
+    background-position: -84px 0;
+    margin-right: 3px;
+}
+#registerLoadingState #regFooter > div > table td.right a.google {
+    background-position: -125px 0;
+}

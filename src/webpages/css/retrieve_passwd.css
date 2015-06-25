@@ -1,0 +1,148 @@
+@charset "utf-8";
+/*重置样式*/
+body,button,input,select,textarea{font:12px/1.125 "Simsun", "Arial Narrow", HELVETICA;}
+sub,sup{line-height:0;}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr{margin:0; padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+fieldset,img{border:0;}
+input,textarea{outline-style:none;}
+textarea{resize:none}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:normal;}
+legend{color:#000;}
+abbr,acronym {border:0;font-variant:normal;}
+a:link,
+a:visited{text-decoration:none;outline:none;color:#0a8cd2;}
+a:hover{text-decoration:underline;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.checkbox,
+.radio{margin:0px 5px 0 0;*margin:1px 0 0 0; vertical-align:middle}
+
+.B_retrv{background:url(/images/getpwd/reg_bg_x.jpg) repeat-x 0 top #dceaf5;}
+.B_retrv .TX_retrv{ background:url(/images/getpwd/reg_bg.jpg) no-repeat top center;}
+/*头*/
+.B_retrv .retrv_hd{margin:0 auto;width:900px;height:80px;color:#fff;border-bottom:2px solid #ff9000;}
+.B_retrv .retrv_hd a{color:#fff;}
+.B_retrv .retrv_hd .top_lnk{padding-top:55px;text-align:right;}
+.B_retrv .retrv_hd .top_lnk a{margin:0 8px;}
+.B_retrv .retrv_logo_tx{float:left;margin-top:35px;width:154px;height:36px;background:url(/images/getpwd/tx_logo.gif) no-repeat 0 0;overflow:hidden;text-indent:-999em;}
+.B_retrv .retrv_logo_wb{float:left;margin-top:35px;width:154px;height:40px;background:url(/images/getpwd/wb_logo.gif) no-repeat 0 0;overflow:hidden;text-indent:-999em;}
+
+/*主内容区域*/
+.B_retrv .retrv_main{margin:0 auto;width:900px;background:#fafafa;min-height:450px;_height:450px;}
+/*tab*/
+.B_retrv .main_title{padding:18px 0 0;}
+.B_retrv .main_title .main_tab{border-bottom:1px solid #D9D9D9;height:39px;padding-left:20px;background:url(/images/getpwd/bg_tab.png) repeat-x 0 0;}
+.B_retrv .main_title .main_tab a{position:relative;float:left;margin-right:12px;border:1px solid #d9d9d9;padding:0 35px;font-size:14px;line-height:38px;color:#323232;}
+.B_retrv .main_title .main_tab a:hover{background:url(/images/getpwd/bg_tab.png) repeat-x 0 -62px;color:#fff;text-decoration:none;}
+.B_retrv .main_title .main_tab .current,
+.B_retrv .main_title .main_tab a.current:hover{background:#fafafa;border-bottom-color:#fafafa; cursor:default;color:#323232; text-decoration:none;*top:1px;font-weight:bold;}
+/*信息录入*/
+.B_retrv .retrv_form{position:relative;margin:80px 0 0 150px;padding-bottom:40px;}
+.B_retrv .info_list{margin:0 0 15px;position:relative;}
+.B_retrv .tit{float:left;width:160px;font-size:14px;line-height:30px;text-align:right;}
+.B_retrv .tit i{padding-right:4px;color:#f00;font:'simsun';}
+.B_retrv .ipt{margin-left:160px;}
+.B_retrv .attachment{padding-top:10px; font-family:'SimSun';}
+.B_retrv .attachment .time{color:#999;text-decoration:none;cursor:default;}
+.B_retrv .attachment .checkuc{padding-right:12px;}
+.B_retrv .reg_ipt{width:195px;height:30px;padding:0 0 0 5px;font-size:14px;border:1px solid #ccc;border-radius:2px;box-shadow:1px 1px 1px 0 #eaeaea inset;vertical-align:middle;line-height:30px;}
+.B_retrv .country,
+.B_retrv .tel_location{width:195px;height:30px;line-height:30px;padding:0 0 0 5px;font-size:14px;border:1px solid #ccc;border-radius:2px;box-shadow:1px 1px 1px 0 #eaeaea inset;background:#fff;}
+.B_retrv .country_num{line-height:28px;color:#808080;}
+.B_retrv .tel_num{height:30px;border:1px solid #fff;width:147px;box-shadow:none;background:none;}
+.B_retrv .coutry_code{width:82px;margin-right:8px;}
+.B_retrv .country{display:inline-block;*display:inline;*zoom:1;background:#fff;}
+.B_retrv .country select{border:none;margin:6px 6px 0 -4px;width:190px;_border:0;}
+.B_retrv .nomail{position:absolute;left:375px;top:10px;}
+.B_retrv .ipt_erro{position:absolute;top:-30px;left:160px;border:1px solid #F90;padding:4px 10px;;border-radius:5px;background:#fffbe2;color:#F00;}
+.B_retrv .uname{float:left;padding-top:8px;}
+/*激活码*/
+.B_retrv .active .reg_ipt{margin-left:7px;width:62px;}
+.B_retrv .active .btn_active{height:30px;padding-left:8px;line-height:29px;display:inline-block; vertical-align:middle;background:url(/images/getpwd/reg_btn.png) no-repeat 0 -240px;color:#333;text-decoration:none;cursor:pointer;}
+.B_retrv .active .btn_active span{background:url(/images/getpwd/reg_btn.png) no-repeat right -270px;height:30px;line-height:29px;display:inline-block;padding-right:8px;}
+.B_retrv .active .btn_active:hover{background-position:0 -330px;color:#fff;}
+.B_retrv .active .btn_active:hover span{background-position:right -360px;}
+/*验证码*/
+.B_retrv .ver_code .reg_ipt{width:48px;}
+.B_retrv .ver_pic{display:inline-block;height:40px;width:110px;*display:inline;_zoom:1;vertical-align:middle;}
+.B_retrv .ver_pic img{vertical-align:middle;margin:0 4px;}
+
+.B_retrv .sub_tip{padding-top:10px;color:#999;}
+.B_retrv .verify{width:300px;padding:16px 0 40px;}
+.B_retrv .agreement{padding-bottom:16px;}
+/*提交按钮*/
+.B_retrv .btn_sub,
+.B_retrv .btn_sub span{display:inline-block;*display:inline;zoom:1;height:42px;line-height:42px;font-size:16px;background-image:url(/images/getpwd/reg_btn.png);background-repeat:no-repeat;}
+.B_retrv .btn_sub{padding-left:48px;color:#fff; }
+.B_retrv .btn_sub span{padding-right:48px;background-position:right -60px;color:#fff;}
+.B_retrv .btn_sub:hover{background-position:0 -120px;text-decoration:none;cursor:pointer;}
+.B_retrv .btn_sub:hover span{background-position:right -180px;color:#fff;}
+
+/*tips*/
+.B_retrv .tips{position:absolute;left:375px;top:10px;width:215px;padding-left:20px;line-height:1.125;}
+.B_retrv .tips .erro{color:#e64141;}
+.B_retrv .tips .suggest{color:#808080}
+/* footer */
+.B_retrv .reg_foot{margin:0 auto;border-top:1px solid #e6e6e6;width:870px;padding:15px 0 15px 30px;background:#fafafa;color:#808080;}
+.B_retrv .reg_foot p{padding-bottom:9px;}
+.B_retrv .reg_foot a{padding-right:12px;}
+/*icon*/
+.B_retrv .icon_succ,
+.B_retrv .icon_del,
+.B_retrv .icon_suggest{background-image:url(/images/getpwd/reg_ico.png);_background-image:url(/images/getpwd/reg_ico_ie6.png);background-repeat:no-repeat;width:15px;height:15px;float:left;margin-left:-18px;}
+.B_retrv .icon_succ{background-position:-30px 0;}
+.B_retrv .icon_del{background-position:-60px 0;}
+.B_retrv .icon_suggest{background-position:0 0;}
+/*icon 42X42*/
+.B_retrv .icon_del_42,
+.B_retrv .icon_succ_42,
+.B_retrv .icon_remind_42{margin-right:6px;background-image:url(/images/getpwd/reg_ico.png);_background-image:url(/images/getpwd/reg_ico_ie6.png);background-repeat:no-repeat;width:42px;height:42px;float:left;}
+.B_retrv .icon_del_42{background-position:-120px -30px;}
+.B_retrv .icon_succ_42{background-position:-60px -30px;}
+.B_retrv .icon_remind_42{background-position:0 -30px;}
+/*手机注册*/
+.B_retrv .reg_mobile{background:url(/images/getpwd/reg_mobile.png) no-repeat 0 0;}
+.B_retrv .reg_mail{background:url(/images/getpwd/reg_mail.png) no-repeat 0 0;}
+
+/*小浪像*/
+.B_retrv .reg_lang{position:absolute;background:url(/images/getpwd/lang.png) no-repeat 0 0;_background-image:url(/images/getpwd/lang_ie6.png);width:77px;height:110px;top:100px;left:50%;margin-left:426px;}
+
+/*操作结果*/
+.B_retrv .opt_rslt{padding:50px 0 0 190px;position:relative;}
+.B_retrv .opt_rslt .tl{margin-left:-45px;_margin-left:-55px;padding-bottom:22px;font:normal 18px/42px 'Microsoft Yahei','simsun';}
+.B_retrv .opt_info dt{padding-bottom:16px;font-weight:bold;font-size:16px;}
+.B_retrv .opt_info dd{padding-bottom:6px;color:#808080;padding-left:12px;text-indent:-12px;line-height:1.235;}
+.B_retrv .opt_info dd a{padding:0 4px;}
+.B_retrv .info_tl{padding-bottom:38px;font-size:14px;}
+.B_retrv .rsd{padding-top:10px;}
+.B_retrv .rsd_btn{padding-top:23px;}
+.B_retrv .rsd_tip{padding-top:10px;color:#999;}
+.B_retrv .opt_rslt .retrv_form{margin:0 0 0 -80px;}
+
+/*操作结果在表单中*/
+.B_retrv .retrv_form .opt_rslt{padding-top:0;}
+.B_retrv .retrv_form .opt_rslt .log_ck{padding:0;}
+
+/*手机邮箱选择*/
+.B_retrv .slct_num{width:440px;text-align:center;}
+.B_retrv .slct_num .ipt_erro{left:220px;}
+.B_retrv .slct_num .mb_num,
+.B_retrv .slct_num .mail_slct{padding-bottom:20px;text-align:left;padding-left:220px;font:bold 16px/18px 'Arial';}
+.B_retrv .slct_num .mail_slct{padding-left:188px;font-weight:normal;}
+.B_retrv .slct_num .mail_slct .radio{}
+.B_retrv .slct_num dl{padding-bottom:20px;}
+.B_retrv .slct_num dt{text-align:left;font-weight:normal;}
+.B_retrv .slct_num dd{padding:12px 0;color:#333;font-size:14px;font-weight:bold;}
+.B_retrv .slct_num .tip{padding-top:10px;color:#999;}
+
+/*修改成功*/
+.B_retrv .log_ck{padding:25px 0 0 45px;}
+.B_retrv .log_ck .ck_msg{padding-bottom:10px;font-size:14px;}
+
+/*找回密码*/
+.check_maildress,
+.rtv_succ{margin:0 0 10px 80px;border:1px solid #F60;background:#FF9;overflow:hidden;padding:10px;line-height:20px;display:inline-block;*display:inline;*zoom:1;}
+.rtv_succ{margin-left:44px;}
+.rmmail{margin-top:10px;}

@@ -1,0 +1,2219 @@
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.hssBox {
+	background: transparent url(/iv/common/styles/images/hss_bg.png) repeat
+		scroll;
+	height: 20px;
+	width: 20px;
+}
+
+html>body .hssBox {
+	background: transparent
+		url(/iv/common/highslide/graphics/outlines/rounded-white.png) repeat
+		scroll;
+}
+
+.hssBoxBorder {
+	border: medium none;
+	border-collapse: collapse;
+	width: 370px;
+}
+
+.HTMLPanelLoadingContent {
+	display: none;
+	position: relative;
+	top: -34px;
+}
+
+a.bluefont.nounderline:hover {
+	text-decoration: none;
+}
+
+.fbConnectionsContainer {
+	display: none;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.fb-conn {
+	float: left;
+	margin: 4px 0 3px;
+	width: 100%;
+}
+
+.fb-conn .conn-data {
+	float: left;
+	padding-left: 10px;
+	width: 70%;
+}
+
+.conn-data .conn-link {
+	clear: both;
+	float: left;
+	color: #3b5998;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.conn-data .conn-details {
+	clear: both;
+	color: #333;
+	float: left;
+	font-size: 11px;
+	width: 98%;
+}
+
+.headtxt {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+} /* Hides from IE5-mac \*/
+* .buggybox {
+	height: 1%;
+} /* End hide from IE5-mac */
+.jobContent {
+	float: left;
+	margin: 0 5px;
+	width: 99%;
+}
+
+.buzzContent {
+	font-size: .9em;
+	clear: both;
+	margin: 0 5px;
+	width: 99%;
+}
+
+.buzzContent ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.buzzContent ul li {
+	margin-bottom: 8px;
+}
+
+.buzzContent .twitter {
+	color: #000;
+	font-size: 1.3em;
+	padding-left: 18px;
+	background-image: url(/iv/common/styles/images/icn_twitter.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.buzzContent .googleblogs {
+	color: #000;
+	font-size: 1.3em;
+	padding-left: 20px;
+	background-image: url(/iv/common/styles/images/icn_google.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.buzzContent .summary {
+	color: #333;
+	font-size: 11px;
+}
+
+.tagCloud a {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #999;
+	text-decoration: none;
+}
+
+.tagCloud {
+	padding: 8px;
+	margin: 20px;
+	width: 254px;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+
+.none {
+	color: #999;
+	margin: 10px 0;
+	font-style: italic;
+}
+
+#ivResultHeader {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+#ivResultTitle {
+	padding-top: 2px;
+	float: left;
+}
+
+.ivPeopleResults {
+	width: 96%;
+	margin-left: 22px;
+}
+
+.syncExec {
+	color: #333;
+	text-decoration: none;
+	float: left;
+	padding: 0;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.syncExec span:hover {
+	text-decoration: underline;
+}
+
+.noivResults {
+	padding-top: 5px;
+	margin-left: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.share-menu-cont {
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid #ccc;
+	float: left;
+	height: auto;
+	left: 200px;
+	position: absolute;
+	top: 200px;
+	width: 85px;
+	display: none;
+	-o-box-shadow: 2px 2px 10px #666;
+	-ms-box-shadow: 2px 2px 10px #666;
+	-webkit-box-shadow: 2px 2px 10px #666;
+	-moz-box-shadow: 2px 2px 10px #666;
+	box-shadow: 2px 2px 10px #666;
+}
+
+.share-menu-cont .share-menuitem {
+	color: #666;
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	height: 25px;
+	text-decoration: none;
+	width: 100%;
+	cursor: pointer;
+}
+
+.share-menu-cont .share-menuitem:hover {
+	color: #666;
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	height: 25px;
+	text-decoration: none;
+	width: 100%;
+	background: #ececec;
+	cursor: pointer;
+}
+
+.share-menuitem .menu-label {
+	color: #333;
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 5px 0 0 8px;
+	padding: 0;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.share-menuitem .menu-icon {
+	float: left;
+	margin: 5px 0 0 5px;
+	cursor: pointer;
+}
+
+#bod a {
+	line-height: 1.7em;
+	margin: 0;
+}
+
+.bod_sprite {
+	background-position: -96px -52px;
+	float: left;
+	height: 15px;
+	margin: 3px 6px 3px 0;
+	width: 13px;
+}
+
+.list_container {
+	padding: 2px;
+	display: block;
+}
+
+.list_item {
+	padding: 2px 0 2px 14px;
+}
+
+a.people-bucket {
+	padding-left: 2px;
+}
+
+.people-bucket-arrow {
+	float: left;
+	margin: 3px 3px 0;
+}
+
+.tabLeft {
+	height: 15px;
+	background-position: 0 0;
+	padding: 6px 4px 5px 14px;
+	float: left;
+	cursor: pointer;
+}
+
+.tabRight {
+	height: 26px;
+	width: 10px;
+	background-position: -190px 0;
+	float: left;
+	cursor: pointer;
+}
+
+.current .tabLeft {
+	background-position: 0 -181px;
+	border-bottom: 1px solid #fff;
+}
+
+.current .tabRight {
+	background-position: -190px -181px;
+	border-bottom: 1px solid #fff;
+}
+
+.company_sprites {
+	background-image: url(/iv/common/styles/images/company_sprites.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.white_top_left {
+	border-left: 1px solid #ccc;
+	background-color: #d8d8d8;
+	background-position: 0 -40px;
+}
+
+.white_top_mid {
+	float: left;
+	height: 7px;
+	width: 97%;
+	border-top: 0 solid #ccc;
+}
+
+ul.menu .track_sprites {
+	margin: -7px 0 0 0;
+}
+
+a.txt_track,ul.menu li a.txt_track {
+	font-weight: bold;
+	font-size: 12px;
+	color: #900;
+	margin-top: -3px;
+	text-decoration: none;
+}
+
+ul.menu .tabLeft {
+	padding: 6px 4px 5px 14px;
+}
+
+.navigation ul.menu ul li a {
+	display: block;
+	padding: 5px 7px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+}
+
+ul.menu .menuarrow {
+	background-position: -40px -22px;
+	height: 5px;
+	width: 8px;
+	float: left;
+	margin: 6px 0 0 5px;
+	font-size: 1px;
+}
+
+.track_sprites {
+	float: left;
+	width: 35px;
+	height: 23px;
+	background-position: -44px -52px;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+}
+
+ul.menu .track_arrow_sprites {
+	background-position: -40px -27px;
+	height: 5px;
+	width: 8px;
+	float: left;
+	margin: 10px 0 0 5px !important;
+	font-size: 1px;
+	cursor: pointer;
+}
+
+.description {
+	line-height: 125%;
+	width: 85% !important;
+	cursor: pointer;
+}
+
+.export {
+	float: right;
+	display: block;
+	margin: 4px 20px 0 0;
+}
+
+.export a {
+	font-size: 12px;
+}
+
+.export a img {
+	vertical-align: middle;
+}
+
+.export_sprite {
+	float: left;
+	width: 20px;
+	height: 19px;
+	background-position: -20px -20px;
+	margin: -3px 3px 0 0;
+	cursor: pointer;
+}
+
+.dataFld {
+	width: 96px;
+	float: left;
+	font-weight: bold;
+	clear: both;
+	padding-top: 3px;
+}
+
+.dataContent {
+	width: 75%;
+	float: left;
+	padding-top: 3px;
+}
+
+.form_button {
+	margin: -2px 0 0 5px;
+	vertical-align: middle;
+}
+
+label {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 5px 0 0;
+	color: #333;
+}
+
+.linkedIn_sprites {
+	background-position: -30px -67px;
+	float: left;
+	height: 14px;
+	margin: -1px 4px 0 4px;
+	width: 14px;
+}
+
+.overview-components {
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+.left-container {
+	width: 60%;
+	float: left;
+}
+
+.right-container {
+	width: 40%;
+	float: right;
+	padding: 5px 0 0 0;
+}
+
+.sourceCont {
+	float: left;
+	width: 180px;
+}
+
+.sourceCont img {
+	float: left;
+}
+
+.sourcetop {
+	float: left;
+	margin-left: 5px;
+	width: 145px;
+	color: #333;
+}
+
+.sourcetop .sourceName {
+	float: left;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.dataCol35 {
+	width: 31%;
+	float: left;
+	font-size: 11px;
+}
+
+.dataCol10,.dataCol12 {
+	width: 10%;
+	padding-left: 9px;
+	text-align: right;
+	float: left;
+	font-size: 11px;
+}
+
+.dataCol12 {
+	width: 12%;
+}
+
+.flag-note .note {
+	width: 268px;
+}
+
+.flag-note .acInput {
+	width: 268px;
+}
+
+.flag-row .check {
+	width: 135px;
+}
+
+.acResultsIndustry {
+	padding: 0;
+	border: 1px solid #999;
+	background-color: #fff;
+	overflow: hidden;
+	margin: 0;
+	z-index: 200000;
+	overflow-y: auto;
+	height: 200px;
+}
+
+.acResultsIndustry ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.acResultsIndustry li {
+	margin: 0;
+	padding: 2px 5px 2px 5px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	font: menu;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.revenue-content {
+	margin-top: 5px;
+	float: left;
+	width: 100%;
+}
+
+.revenue-content .left {
+	float: left;
+	width: 49%;
+}
+
+#industryScroller {
+	max-height: 225px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-top: 5px;
+}
+
+.marketFollowHook {
+	float: right;
+	margin-top: 10px;
+}
+
+.marketFollowDiv {
+	width: 200px;
+	float: right;
+}
+
+.newsContainerContent {
+	background: #fff;
+}
+
+.finance-panel .darkerBorder {
+	border-color: #666;
+}
+
+.finance-panel .subTotal {
+	font-weight: bold;
+}
+
+.finance-panel .zero-data {
+	color: #666;
+}
+
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	float: none;
+}
+
+.row .onecol,.row .twocol,.row .threecol,.row .fourcol,.row .fivecol,.row .sixcol,.row .sevencol,.row .eightcol,.row .ninecol,.row .tencol,.row .elevencol
+	{
+	margin-right: 3.8%;
+	float: left;
+	min-height: 1px;
+}
+
+.row .onecol {
+	width: 4.85%;
+}
+
+.row .twocol {
+	width: 13.45%;
+}
+
+.row .threecol {
+	width: 22.05%;
+}
+
+.row .fourcol {
+	width: 30.75%;
+}
+
+.row .fivecol {
+	width: 39.45%;
+}
+
+.row .sixcol {
+	width: 48%;
+}
+
+.row .sevencol {
+	width: 56.75%;
+}
+
+.row .eightcol {
+	width: 65.4%;
+}
+
+.row .ninecol {
+	width: 74.05%;
+}
+
+.row .tencol {
+	width: 82.7%;
+}
+
+.row .elevencol {
+	width: 91.35%;
+}
+
+.row .twelvecol {
+	width: 100%;
+	float: left;
+}
+
+.row .last {
+	margin-right: 0;
+}
+
+.noleftpadding {
+	padding-left: 0;
+}
+
+.norightpadding {
+	padding-right: 0;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+#buzzContent #postsTabSection {
+	color: #333;
+}
+
+#buzzContent #mentionsTabSection {
+	color: #333;
+	display: none;
+}
+
+#buzzContent #searchSection {
+	color: #333;
+	display: none;
+}
+
+#buzzContent .post {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#buzzContent .nopost {
+	margin: 10px 5px;
+}
+
+#buzzContent .post .postText {
+	padding-left: 22px;
+}
+
+#buzzContent .post .postText a {
+	color: #069;
+	text-decoration: none;
+}
+
+#buzzContent .post .postText a:hover {
+	color: #069;
+	text-decoration: underline !important;
+}
+
+#buzzContent .post .postText .bluefont_11px {
+	padding-right: 5px;
+}
+
+#buzzContent .post .postText .greyText {
+	color: #999;
+	font-size: 11px;
+	padding-right: 2px;
+}
+
+#buzzContent .postsContainer .line_dashed {
+	margin: 0;
+}
+
+#buzzContent .postsContainer .post:hover {
+	background-color: #f6f6f6;
+}
+
+#buzzContent .post .postText .onHoverLinks {
+	height: 10px;
+	padding-top: 5px;
+}
+
+#buzzContent .post .postText .onHoverLinks a:hover {
+	text-decoration: underline;
+}
+
+#buzzContent .post .postText .onHoverBlogLinks {
+	display: inline-block;
+	font-size: 11px;
+	color: #666;
+	visibility: hidden;
+}
+
+#buzzContent .post:hover .onHoverBlogLinks {
+	visibility: visible;
+}
+
+#buzzContent .post .social_links {
+	display: inline-block;
+	padding-left: 4px;
+	float: right;
+}
+
+#buzzContent .post .social_links a {
+	float: left;
+	text-decoration: none;
+}
+
+#buzzContent .post .social_links a:hover {
+	text-decoration: none !important;
+}
+
+#buzzContent .post .social_links a.margin {
+	margin-left: 7px;
+}
+
+#buzzContent .post .postText .onHoverLinks div {
+	display: none;
+}
+
+#buzzContent .post .postText .onHoverLinks div * {
+	vertical-align: middle;
+}
+
+#buzzContent .loadMoreLink {
+	background: none repeat scroll 0 0 #f6f6f6;
+	box-shadow: 1px 6px 6px -3px #ccc inset;
+	border-top: none;
+	height: 25px;
+}
+
+#buzzContent .loadMoreLink img {
+	padding-top: 5px;
+}
+
+#buzzContent .loadMoreLink a {
+	padding: 5px;
+}
+
+#buzzContent #resultsHeadSection .current {
+	background-color: #fff;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	width: 99%;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav .navigation li a {
+	font-size: 14px;
+	color: #333;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav .navigation li a:hover {
+	color: #333;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav .white_top_mid {
+	border-top: 1px solid #ccc;
+	margin-top: 0;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav .white_top_left {
+	background-color: #fff;
+	border-left: none;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav .white_middleBar {
+	height: 21px;
+	background-color: transparent;
+}
+
+#buzzContent #resultsHeadSection #ternaryNav .white_middleBar .white_mid_content
+	{
+	height: 21px;
+	min-height: 21px;
+	margin: 0;
+	padding: 0;
+}
+
+#buzzContent #resultsHeadSection #search-head {
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0 2px 0;
+	height: 21px;
+	width: 99%;
+	display: none;
+}
+
+#buzzContent #resultsHeadSection #searchBar .grey_middleBar {
+	padding: 0 2px;
+}
+
+#buzzContent #resultsHeadSection #searchBar .grey_middleBar .grey_mid_content
+	{
+	padding: 0 5px;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox {
+	height: 21px;
+	width: 284px;
+	margin: 1px 0 0 0;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_top_left,#buzzContent #resultsHeadSection #searchBar .searchBox .white_bottom_left
+	{
+	background-color: transparent;
+	border-left: medium none;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_top_mid {
+	border-top: 1px solid #ccc;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_top_mid,#buzzContent #resultsHeadSection #searchBar .searchBox .white_bottom_mid
+	{
+	background-color: #fff;
+	width: 94%;
+	margin-top: 0;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_middleBar
+	{
+	background-color: #fff;
+	height: 5px;
+	width: 280px;
+	padding: 0;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_middleBar .white_mid_content
+	{
+	background-color: transparent;
+	height: auto;
+	margin: 0;
+	min-height: 0;
+	position: relative;
+	width: 280px;
+	z-index: 100;
+	overflow: visible;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_middleBar .white_mid_content input
+	{
+	background-color: transparent;
+	border: medium none;
+	color: #666;
+	font-size: 11px;
+	margin: -5px 5px 0;
+	width: 269px;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchBox .white_bottomBar
+	{
+	margin-top: 0;
+	z-index: 99;
+}
+
+#buzzContent #resultsHeadSection #searchBar .searchButton {
+	margin-top: 6px;
+}
+
+#buzzContent #resultsHeadSection #searchBar #view_all {
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+#buzzContent #resultsHeadSection #searchBar .refresh {
+	margin-left: 10px;
+	display: inline-block;
+	margin-top: -1px;
+	float: right;
+}
+
+#buzzContent #resultsHeadSection #searchBar .refresh img {
+	vertical-align: middle;
+}
+
+#buzzContent #siteAnalysis {
+	position: relative;
+	float: right;
+	margin-bottom: -25px;
+	margin-top: 5px;
+}
+
+#buzzContent #resultsHeadSection #searchBar .social-filter {
+	float: right;
+	width: 175px;
+}
+
+#buzzContent .social-filter ul.menu ul {
+	right: 0 !important;
+	left: -8px;
+	top: 17px;
+}
+
+#buzzContent ul.menu ul li a {
+	font-size: 12px;
+}
+
+#buzzContent #resultsHeadSection #searchBar .social-filter .feedText {
+	float: left;
+	margin-top: 4px;
+	margin-right: 5px;
+	color: #999;
+}
+
+#buzzContent #resultsHeadSection #searchBar .social-filter #filter {
+	margin-top: -2px;
+	float: left;
+	width: auto;
+	top: 18px !important;
+	right: -10px !important;
+}
+
+#buzzContent #resultsHeadSection #searchBar .social-filter span,#buzzContent #resultsHeadSection #searchBar .social-filter select,#buzzContent #resultsHeadSection #searchBar .social-filter a
+	{
+	vertical-align: middle;
+}
+
+#buzzContent #searchBar ul#filter ul {
+	right: -10px important;
+	width: 83px;
+}
+
+#buzzContent #resultsContentWrapper #resultsContentSection {
+	clear: both;
+}
+
+#buzzContent #resultsContentWrapper #resultsContentSection .loader {
+	margin: 30px 0;
+}
+
+#buzzContent #resultsContentWrapper #resultsContentSection .loader * {
+	vertical-align: middle;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection {
+	float: right;
+	margin-top: 10px;
+}
+
+#twitterContainer  .widgetBoxHeader {
+	padding: 6px 10px 0;
+}
+
+#tengxunContainer  .widgetBoxHeader {
+	padding: 6px 10px 0;
+}
+
+#sinaContainer  .widgetBoxHeader {
+	padding: 6px 10px 0;
+}
+
+#socialProfileSection .innerWidgetBox {
+	padding: 10px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .grey_container
+	{
+	margin-top: 0;
+}
+
+#buzzContent .greyHeaderBar {
+	margin: 0 !important;
+	padding: 5px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .grey_top_mid,#buzzContent #resultsContentWrapper #socialProfileSection .grey_bottom_mid
+	{
+	width: 91%;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .grey_middleBar
+	{
+	padding: 4px 2px 4px 1px;
+	width: 97%;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .grey_mid_content
+	{
+	padding: 0 10px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .grey_top_content
+	{
+	padding: 0 10px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .white_container
+	{
+	margin: 0 0 2px;
+	width: 215px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .white_top_left
+	{
+	border-left: 0 solid #ccc;
+	background-position: 0 -40px;
+	background-color: transparent;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .white_top_mid
+	{
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	margin-top: 0;
+	width: 198px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .white_top_right
+	{
+	background-color: transparent;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .white_middleBar
+	{
+	background-color: #fff;
+	padding: 3px 0;
+	width: 212px;
+}
+
+#buzzContent #resultsContentWrapper #socialProfileSection .white_bottom_mid
+	{
+	background-color: #fff;
+	width: 198px;
+}
+
+#buzzContent #resultsContentWrapper.hideSocial #resultsContentSection {
+	float: none;
+}
+
+#buzzContent #resultsContentWrapper.hideSocial #socialProfileSection {
+	display: none;
+}
+
+#buzzContent #resultsContentWrapper.hideSocial #resultsContentSection>div
+	{
+	float: none;
+	width: auto;
+}
+
+#crm_buzz #buzzContent #resultsContentWrapper #socialProfileSection .grey_middleBar
+	{
+	padding: 4px 0;
+}
+
+#crm_buzz #buzzContent #resultsHeadSection #searchBar .grey_middleBar {
+	width: 98%;
+}
+
+#crm_buzz #buzzContent #resultsHeadSection #ternaryNav {
+	height: 26px;
+	border-bottom: 1px solid #ccc;
+}
+
+#crm_buzz #buzzContent #resultsHeadSection #ternaryNav .white_middleBar
+	{
+	height: 15px;
+	padding-top: 0;
+	padding-bottom: 6px;
+}
+
+#crm_buzz #buzzContent #mentionsTabSection {
+	color: #333;
+	display: none;
+}
+
+#crm_buzz #buzzContent #searchSection {
+	color: #333;
+	display: none;
+}
+
+#crm_buzz #buzzContent .hover-button-anchor {
+	width: auto !important;
+}
+
+#crm_buzz #buzzContent .social-filter ul.menu ul {
+	top: 24px;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+#socialProfileSection #twitterContainer .profile .head {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #tengxunContainer .profile .head {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #sinaContainer .profile .head {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #twitterContainer  .profile .head .bird {
+	float: left;
+	width: 14%;
+}
+
+#socialProfileSection #tengxunContainer  .profile .head .bird {
+	float: left;
+	width: 14%;
+}
+
+#socialProfileSection #sinaContainer  .profile .head .bird {
+	float: left;
+	width: 14%;
+}
+
+#socialProfileSection #twitterContainer  .profile .head .bird img {
+	vertical-align: middle;
+}
+
+#socialProfileSection #tengxunContainer  .profile .head .bird img {
+	vertical-align: middle;
+}
+
+#socialProfileSection #sinaContainer  .profile .head .bird img {
+	vertical-align: middle;
+}
+
+#socialProfileSection #twitterContainer  .profile .head .info {
+	float: left;
+	width: 86%;
+}
+
+#socialProfileSection #tengxunContainer  .profile .head .info {
+	float: left;
+	width: 86%;
+}
+
+#socialProfileSection #sinaContainer  .profile .head .info {
+	float: left;
+	width: 86%;
+}
+
+#socialProfileSection #twitterContainer  .profile .head .info .name {
+	font-weight: bold;
+}
+
+#socialProfileSection #tengxunContainer  .profile .head .info .name {
+	font-weight: bold;
+}
+
+#socialProfileSection #sinaContainer  .profile .head .info .name {
+	font-weight: bold;
+}
+
+#socialProfileSection #twitterContainer  .profile .head .info img {
+	vertical-align: middle;
+}
+
+#socialProfileSection #tengxunContainer  .profile .head .info img {
+	vertical-align: middle;
+}
+
+#socialProfileSection #sinaContainer  .profile .head .info img {
+	vertical-align: middle;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio .profile-image {
+	float: left;
+	width: 20%;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio .profile-image {
+	float: left;
+	width: 20%;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio .profile-image {
+	float: left;
+	width: 20%;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio .profile-image img
+	{
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio .profile-image img
+	{
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio .profile-image img
+	{
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio .about {
+	float: left;
+	width: 80%;
+	font-size: 11px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio .about {
+	float: left;
+	width: 80%;
+	font-size: 11px;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio .about {
+	float: left;
+	width: 80%;
+	font-size: 11px;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio .about a.url {
+	text-decoration: none;
+	color: #999;
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio .about a.url {
+	text-decoration: none;
+	color: #999;
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio .about a.url {
+	text-decoration: none;
+	color: #999;
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio .about a.url:hover
+	{
+	text-decoration: underline;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio .about a.url:hover
+	{
+	text-decoration: underline;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio .about a.url:hover
+	{
+	text-decoration: underline;
+}
+
+#socialProfileSection #twitterContainer  .profile .bio .about iframe {
+	height: 20px;
+	padding-top: 5px;
+	width: 155px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .bio .about iframe {
+	/*height: 20px;
+	padding-top: 5px;
+	width: 155px;*/
+	float:left;
+}
+
+#socialProfileSection #sinaContainer  .profile .bio .about iframe {
+	/*height: 20px;
+	padding-top: 5px;
+	width: 155px;*/
+	float:left;
+}
+
+#socialProfileSection #twitterContainer .profile .posts,#socialProfileSection #twitterContainer .profile .follows
+	{
+	border-top: 1px solid #ccc;
+	padding-top: 4px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .posts,#socialProfileSection #tengxunContainer .profile .follows
+	{
+	border-top: 1px solid #ccc;
+	padding-top: 4px;
+}
+
+#socialProfileSection #sinaContainer  .profile .posts,#socialProfileSection #sinaContainer .profile .follows
+	{
+	border-top: 1px solid #ccc;
+	padding-top: 4px;
+}
+
+#socialProfileSection #twitterContainer  .profile .posts {
+	padding-bottom: 4px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .posts {
+	padding-bottom: 4px;
+}
+
+#socialProfileSection #sinaContainer  .profile .posts {
+	padding-bottom: 4px;
+}
+
+#socialProfileSection #twitterContainer  .profile .posts .tweets {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .posts .tweets {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #sinaContainer  .profile .posts .tweets {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #twitterContainer  .profile .count {
+	float: left;
+	padding-right: 4%;
+	color: #069;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	width: 48%;
+}
+
+#socialProfileSection #tengxunContainer  .profile .count {
+	float: left;
+	padding-right: 4%;
+	color: #069;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	width: 48%;
+}
+
+#socialProfileSection #sinaContainer  .profile .count {
+	float: left;
+	padding-right: 4%;
+	color: #069;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	width: 48%;
+}
+
+#socialProfileSection #twitterContainer  .profile .text {
+	color: #999;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#socialProfileSection #tengxunContainer  .profile .text {
+	color: #999;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#socialProfileSection #sinaContainer  .profile .text {
+	color: #999;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#socialProfileSection #twitterContainer  .profile .posts .text {
+	float: left;
+	padding-top: 2px;
+	width: 45%;
+}
+#socialProfileSection #tengxunContainer  .profile .posts .text {
+	float: left;
+	padding-top: 2px;
+	width: 45%;
+}
+#socialProfileSection #sinaContainer  .profile .posts .text {
+	float: left;
+	padding-top: 2px;
+	width: 45%;
+}
+
+#socialProfileSection #twitterContainer  .profile .follows .following {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #tengxunContainer  .profile .follows .following {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #sinaContainer  .profile .follows .following {
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #twitterContainer  .profile .follows .photos {
+	float: left;
+	width: 45%;
+}
+
+#socialProfileSection #tengxunContainer  .profile .follows .photos {
+	float: left;
+	width: 45%;
+}
+
+#socialProfileSection #sinaContainer  .profile .follows .photos {
+	float: left;
+	width: 45%;
+}
+
+#socialProfileSection #twitterContainer  .profile .posts a.bluefont_14px,#socialProfileSection #twitterContainer  .profile .follows a.bluefont_14px
+	{
+	font-weight: bold;
+}
+
+#socialProfileSection #tengxunContainer  .profile .posts a.bluefont_14px,#socialProfileSection #tengxunContainer  .profile .follows a.bluefont_14px
+	{
+	font-weight: bold;
+}
+
+#socialProfileSection #sinaContainer  .profile .posts a.bluefont_14px,#socialProfileSection #sinaContainer  .profile .follows a.bluefont_14px
+	{
+	font-weight: bold;
+}
+
+#socialProfileSection .notRightCompanyWrapper a {
+	font-size: 11px;
+	color: #999;
+	text-decoration: none;
+	padding-right: 5px;
+}
+
+#socialProfileSection .notRightCompanyWrapper a:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #twitterContainer  .match {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+
+#socialProfileSection #tengxunContainer  .match {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+
+#socialProfileSection #sinaContainer  .match {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+
+#socialProfileSection #twitterContainer  .nomatch {
+	font-size: 11px;
+}
+
+#socialProfileSection #twitterContainer  .matches-head * {
+	vertical-align: middle;
+}
+
+#socialProfileSection #twitterContainer  .match .head * {
+	vertical-align: middle;
+}
+
+#socialProfileSection #twitterContainer  .match .head img {
+	width: 20px;
+	height: 20px;
+}
+
+#socialProfileSection #twitterContainer  .match .desc {
+	padding: 5px 0 0 0;
+}
+
+#socialProfileSection #twitterContainer  .match .url {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#socialProfileSection #twitterContainer  .match .url a {
+	color: #999;
+	text-decoration: none;
+}
+
+#socialProfileSection #twitterContainer  .match .url a:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #twitterContainer  .more-bucket {
+	display: none;
+}
+
+#socialProfileSection #twitterContainer  .login {
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+#socialProfileSection #twitterContainer  .controls .less {
+	display: none;
+}
+
+#socialProfileSection #twitterContainer  .controls .more {
+	display: inline;
+}
+
+#socialProfileSection #twitterContainer  .controls.expanded .less {
+	display: inline;
+}
+
+#socialProfileSection #twitterContainer  .controls.expanded .more {
+	display: none;
+}
+
+#socialProfileSection #tengxunContainer  .nomatch {
+	font-size: 11px;
+}
+
+#socialProfileSection #tengxunContainer  .matches-head * {
+	vertical-align: middle;
+}
+
+#socialProfileSection #tengxunContainer  .match .head * {
+	vertical-align: middle;
+}
+
+#socialProfileSection #tengxunContainer  .match .head img {
+	width: 20px;
+	height: 20px;
+}
+
+#socialProfileSection #tengxunContainer  .match .desc {
+	padding: 5px 0 0 0;
+}
+
+#socialProfileSection #tengxunContainer  .match .url {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#socialProfileSection #tengxunContainer  .match .url a {
+	color: #999;
+	text-decoration: none;
+}
+
+#socialProfileSection #tengxunContainer  .match .url a:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #tengxunContainer  .more-bucket {
+	display: none;
+}
+
+#socialProfileSection #tengxunContainer  .login {
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+#socialProfileSection #tengxunContainer  .controls .less {
+	display: none;
+}
+
+#socialProfileSection #tengxunContainer  .controls .more {
+	display: inline;
+}
+
+#socialProfileSection #tengxunContainer  .controls.expanded .less {
+	display: inline;
+}
+
+#socialProfileSection #tengxunContainer  .controls.expanded .more {
+	display: none;
+}
+
+#socialProfileSection #tengxunContainer  .nomatch {
+	font-size: 11px;
+}
+
+#socialProfileSection #sinaContainer  .matches-head * {
+	vertical-align: middle;
+}
+
+#socialProfileSection #sinaContainer  .match .head * {
+	vertical-align: middle;
+}
+
+#socialProfileSection #sinaContainer  .match .head img {
+	width: 20px;
+	height: 20px;
+}
+
+#socialProfileSection #sinaContainer  .match .desc {
+	padding: 5px 0 0 0;
+}
+
+#socialProfileSection #sinaContainer  .match .url {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#socialProfileSection #sinaContainer  .match .url a {
+	color: #999;
+	text-decoration: none;
+}
+
+#socialProfileSection #sinaContainer  .match .url a:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #sinaContainer  .more-bucket {
+	display: none;
+}
+
+#socialProfileSection #sinaContainer  .login {
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+#socialProfileSection #sinaContainer  .controls .less {
+	display: none;
+}
+
+#socialProfileSection #sinaContainer  .controls .more {
+	display: inline;
+}
+
+#socialProfileSection #sinaContainer  .controls.expanded .less {
+	display: inline;
+}
+
+#socialProfileSection #sinaContainer  .controls.expanded .more {
+	display: none;
+}
+
+.twitter-connect {
+	background: url("/iv/common/styles/images/twitter_connect_146px.png")
+		no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	display: inline-block;
+	height: 23px;
+	width: 146px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.twitter-connect:hover {
+	background-position: left -23px;
+}
+
+.twitter-connect:active {
+	background-position: left -46px;
+}
+
+.twitter-connect span {
+	left: -9999px;
+	position: absolute;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+#facebookContainer {
+	clear: both;
+}
+
+#socialProfileSection #facebookContainer .login {
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+#socialProfileSection #facebookContainer .login .fb-connect {
+	background: url("/iv/common/styles/images/fb_connect.png") no-repeat
+		scroll 0 0 transparent;
+	border: 0 none;
+	display: inline-block;
+	height: 23px;
+	width: 170px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#socialProfileSection #facebookContainer .login .fb-connect:hover {
+	background-position: left -23px;
+}
+
+#socialProfileSection #facebookContainer .login .fb-connect:click {
+	background-position: left -46px;
+}
+
+.facebook-row .screen-name {
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+}
+
+.facebook-row .screen-name:hover {
+	text-decoration: underline;
+}
+
+.facebook-row .desc {
+	clear: both;
+	font-size: 11px;
+	color: #666;
+	padding-top: 5px;
+}
+
+#socialProfileSection #facebookContainer .facebook-header {
+	padding-bottom: 5px;
+}
+
+#socialProfileSection #facebookContainer .facebook-logo {
+	width: 16px;
+	height: 16px;
+	background: transparent url(../../image/mainpage/fb_16X16.png)
+		no-repeat 0 0;
+	float: left;
+	margin-right: 5px;
+}
+
+#socialProfileSection #facebookContainer .facebook-header-text {
+	float: left;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+#socialProfileSection #facebookContainer .website {
+	color: #999;
+	font-size: 11px;
+	text-decoration: none;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+#socialProfileSection #facebookContainer .website:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #facebookContainer .count a:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #facebookContainer .link {
+	color: #999;
+	font-size: 11px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#socialProfileSection #facebookContainer .link:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #facebookContainer .about {
+	float: left;
+	width: 162px;
+	padding-left: 5px;
+	font-size: 11px;
+	color: #666;
+}
+
+#socialProfileSection #facebookContainer .about-us {
+	clear: both;
+	font-size: 11px;
+	color: #666;
+}
+
+#socialProfileSection #facebookContainer .info {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+	color: #999;
+}
+
+#socialProfileSection #facebookContainer a.post-count {
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#socialProfileSection #facebookContainer .count {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 4%;
+}
+
+#socialProfileSection #facebookContainer .name-box {
+	margin: 3px 0 0 5px;
+	float: left;
+	font-size: 11px;
+}
+
+#socialProfileSection #facebookContainer #likeButtonContainer {
+	clear: both;
+	padding-left: 30px;
+}
+
+#socialProfileSection #facebookContainer .extra_padding {
+	padding-bottom: 5px;
+}
+
+#socialProfileSection #facebookContainer .greyfont_11px {
+	color: #999;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#socialProfileSection #facebookContainer .greyfont_11px:hover {
+	text-decoration: underline;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+#blogContainer {
+	margin-bottom: 30px;
+	clear: both;
+}
+
+#socialProfileSection #blogContainer .blog-header {
+	padding-bottom: 5px;
+}
+
+#socialProfileSection #blogContainer .blog-logo {
+	width: 16px;
+	height: 16px;
+	background: transparent url(/iv/common/styles/images/rss_16X16.png)
+		no-repeat 0 0;
+	float: left;
+	margin-right: 5px;
+}
+
+#socialProfileSection #blogContainer .blog-header-text {
+	float: left;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+#socialProfileSection #blogContainer .blog-content {
+	font-size: 11px;
+	padding-top: 5px;
+	border-top: 1px solid #ccc;
+}
+
+#socialProfileSection #blogContainer .blog-content .desc {
+	color: #666;
+}
+
+#socialProfileSection #blogContainer .blog-content .url a {
+	color: #999;
+	text-decoration: none;
+}
+
+#socialProfileSection #blogContainer .blog-content .url a:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #blogContainer .blog-content .url {
+	padding: 0;
+	border-bottom: none;
+	margin: 0;
+}
+
+#socialProfileSection #blogContainer .greyfont_11px {
+	color: #999;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#socialProfileSection #blogContainer a.greyfont_11px:hover {
+	text-decoration: underline;
+}
+
+#socialProfileSection #blogContainer .bottom_padding {
+	padding-bottom: 5px;
+}
+
+#socialProfileSection #blogContainer .blogMatchControls {
+	text-align: right;
+	padding-top: 5px;
+}
+
+#socialProfileSection #blogContainer .blogMessage {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+	color: #333;
+	font-size: 11px;
+}
+
+#socialProfileSection #blogContainer .blog-row-header {
+	padding-bottom: 5px;
+}
+
+#socialProfileSection #blogContainer .blog_second {
+	display: none;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.reply-container {
+	display: block;
+	padding: 15px 10px 0 10px;
+	width: 480px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.reply-container .head {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.reply-container .head h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.reply-container .input-section {
+	margin: 15px 0 5px;
+}
+
+.reply-container .image {
+	float: left;
+	width: 60px;
+}
+
+.reply-container .reply-text-section {
+	background: url("/iv/common/styles/images/replytweetmodaltext.png")
+		no-repeat scroll 2px 0 transparent;
+	float: left;
+	margin-bottom: 5px;
+	min-height: 64px;
+	width: 420px;
+}
+
+.reply-container .reply-text-section textarea {
+	background-color: transparent;
+	outline: none;
+	border: medium none;
+	font-family: Arial;
+	font-size: 12px;
+	height: 55px;
+	margin-bottom: 5px;
+	margin-left: 29px;
+	margin-top: 5px;
+	resize: none;
+	width: 385px;
+}
+
+.reply-container .reply-controls {
+	margin-bottom: 10px;
+	margin-left: 80px;
+}
+
+.reply-container .reply-controls .charLeft {
+	color: #999;
+	float: left;
+	font-size: 11px;
+	line-height: 20px;
+	margin-top: 8px;
+}
+
+.reply-container .reply-controls #tweetTextCount {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.reply-container .reply-controls #tweetTextCount.red {
+	color: #900;
+}
+
+.reply-container #replyTweetTrigger {
+	background: url("/iv/common/styles/images/replytweetbutton.png")
+		no-repeat scroll 1px 0 transparent;
+	color: #333;
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	padding: 9px 11px;
+	text-decoration: none;
+	width: 40px;
+}
+
+.reply-container #replyTweetTrigger.progress {
+	background: none no-repeat scroll 50% 50% transparent;
+	background-image:
+		url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+.reply-container #replyTweetTrigger.disabled {
+	cursor: default;
+	opacity: .4;
+	filter: alpha(opacity = 40);
+}
+
+.reply-container .replied-tweet-section {
+	background-color: #f4f4f4;
+	border-radius: 5px 5px 5px 5px;
+	margin: 20px 0 0;
+	padding: 10px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetImage {
+	float: left;
+	width: 60px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetText {
+	float: left;
+	width: 398px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetText .repliedTweeter
+	{
+	display: block;
+	font-weight: bold;
+	padding-bottom: 3px;
+}
+
+.reply-container .replied-tweet-section .repliedTweetText .repliedTweet
+	{
+	display: block;
+	font-weight: normal;
+}
+
+.syncButtonSpacing {
+	margin: 3px 10px 0 0;
+}
+
+.reply-container {
+	display: block;
+	margin-top: -5px;
+}
+
+.reply-container .head {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+.reply-container .head h2 {
+	margin: 0;
+	padding: 0;
+	width: 96%;
+}
+
+.reply-container .input-section {
+	margin: 15px 0 5px;
+}
+
+.reply-container .image {
+	float: left;
+	width: 60px;
+}
+
+.reply-container .reply-text-section {
+	background: url("/iv/common/styles/images/replytweetmodaltext.png")
+		no-repeat scroll 2px 0 transparent;
+	float: left;
+	margin-bottom: 5px;
+	min-height: 64px;
+	width: 420px;
+}
+
+.reply-container .reply-text-section textarea {
+	background-color: transparent;
+	outline: none;
+	border: medium none;
+	font-family: Arial;
+	font-size: 12px;
+	height: 55px;
+	margin-bottom: 5px;
+	margin-left: 29px;
+	margin-top: 5px;
+	resize: none;
+	width: 385px;
+}
+
+.reply-container .reply-controls {
+	margin-bottom: 10px;
+	margin-left: 80px;
+}
+
+.reply-container .reply-controls .charLeft {
+	color: #999;
+	float: left;
+	font-size: 11px;
+}
+
+.reply-container #replyCommentTrigger {
+	background: url("/iv/common/styles/images/commentfbbutton.png")
+		no-repeat scroll 1px 0 transparent;
+	background-size: 80px 30px;
+	color: #333;
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	padding: 7px 11px;
+	text-decoration: none;
+	width: 60px;
+}
+
+.reply-container #replyCommentTrigger.progress {
+	background: none no-repeat scroll 50% 50% transparent;
+	background-image:
+		url(/iv/common/styles/images/theme/original/SmallLoadingAnimation.gif);
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+.reply-container #replyCommentTrigger.disabled {
+	cursor: default;
+	opacity: .4;
+	filter: alpha(opacity = 40);
+}
+
+.reply-container .replied-comment-section {
+	background-color: #f4f4f4;
+	border-radius: 5px 5px 5px 5px;
+	margin: 20px 0 0;
+	padding: 10px;
+}
+
+.reply-container .replied-comment-section .repliedCommentImage {
+	float: left;
+	width: 60px;
+}
+
+.reply-container .replied-comment-section .repliedCommentText {
+	float: left;
+	width: 398px;
+}
+
+.reply-container .replied-comment-section .repliedCommentText .repliedCommenter
+	{
+	display: block;
+	font-weight: bold;
+	padding-bottom: 3px;
+}
+
+.reply-container .replied-comment-section .repliedCommentText .repliedComment
+	{
+	display: block;
+	font-weight: normal;
+}

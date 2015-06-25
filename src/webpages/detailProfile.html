@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+	content="application/x-www-form-urlencoded; charset=utf-8" />
+<link rel="stylesheet" href="css/jquery-ui-1.8.22.custom.css"
+	media="screen" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.11.1.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyBuzzCombo_45a90ca75d118951bb8d2b37aa3f2775.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/css_common_new_242028a5d41bdafa8f2036070a4c0ef8.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyPeopleCombo_ebac1e9698523b8a6ebf5ebee54a3a06.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyOverview_2d7ad1720c973c60869a72b3cf11e94b.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyOverview_e59380c6dcf832cc0bc8a0e24c5398c3.css" />
+<link href="css/mainpage/watchlistCombo.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/personCombo_d700f16aaecffb717ad032042c22110c.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/jpaginate.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/mystyle.css" rel="stylesheet" type="text/css" />
+<link href="css/profile.css" rel="stylesheet" type="text/css" />
+<link href="css/detailProfile.css" rel="stylesheet" type="text/css" />
+<link href="css/grid.css" rel="stylesheet" type="text/css" />
+<link href="css/gridLayout.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="js/json2.min.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/backbone.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ba-linkify.js"></script>
+<script type="text/javascript" src="js/require-withcomments.js"></script>
+<script type="text/javascript" src="js/datepicker/WdatePicker.js"></script>
+<script src="js/tag-it.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/popup.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/mainpage/tabmenu.js"></script>
+<script type="text/javascript" src="js/detailProfile.js"></script>
+
+<title>脉拓 -- 脉入云端 拓展商机</title>
+</head>
+
+<body>
+    <div class='banner'></div>
+    <div id="wrapper">
+		<div id="header">
+			<div class="logo">
+				<img src="image/logo.png" />
+			</div>
+			<div class="search_box">
+				<!--  <form class="search_form" method="post" action="">
+					<input id="searchbox" type="text" class="s" name="searchbox" value="" placeholder="搜索" style="border:0;"/> 
+					<input type="image" src="image/search_bt.png" width="28" height="20" class="go" alt="Search" title="Search" />
+					<input type="submit" style="display:none;" />
+				</form>-->
+				<input id="searchbox" type="text" class="s" name="searchbox" value="" placeholder="搜索" style="border:0;"/> 
+					<input type="image" src="image/search_bt.png" width="28" height="20" class="go" alt="Search" title="Search" />
+			</div>
+			<div class="top_menu">
+				<ul>
+					<li><a href="#"><img src="image/speech.png" /></a></li>
+					<li class="menuDiv"></li>
+					<li><a href="#"><img src="image/setting.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="maincontent">
+			<div class="col2">
+				<div id="menu_box">
+					<div class="mainmenu">
+						<ul>
+							<li><a id="homePage" class="menu_tab homepage" href="home.html">首页</a></li>
+							<li><a class="menu_tab" href="#" >动态</a></li>
+							<li><a class="menu_tab" id="watchlistPage" href="#">关注</a></li>
+							<li><a class="menu_tab" id="searchPage" href="javascript:void(0);">查询</a></li>
+							<li><a class="menu_tab" href="#">人脉</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="outerGreyBox">
+					<div class="mainGreyBox">
+						<h1>个人详细信息</h1>
+						<div class="box">
+							<form name="userForm" method="post">
+								<br/>
+								<table width="100%" border="0" cellpadding="0" cellspacing="0">
+								  <tbody>
+									  <tr>
+										<td valign="top">
+										  <fieldset>
+										  	<legend>联系信息</legend>
+											  <table border="0" cellspacing="10" cellpadding="0">
+												<tbody>
+													<tr>
+													  <td colspan="2"><em>*</em><label>姓名</label><br/>
+														<input type="text" name="name" maxlength="32" size="16" value="" data-required/>
+													  </td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>性别</label><br/>
+														<label style="display:inline-block;"><input type="radio" name="gender" maxlength="32" size="16" value="男" style="display: inline-block;vertical-align: middle;"/><span style="display:inline-block;height:27px;line-height:27px;">男</span></label>
+														<label style="display:inline-block;"><input type="radio" name="gender" maxlength="32" size="16" value="女" style="display: inline-block;vertical-align: middle;"/><span style="display:inline-block;height:27px;line-height:27px;">女</span></label></td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>出生日期</label><br/>
+														<input type="text" name="birthday" maxlength="32" size="16" value="" onClick="WdatePicker()"/></td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>地址</label><br/>
+														<input type="text" name="address" maxlength="128" size="36" value="" /></td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>个人手机</label><br/>
+														<input type="text" name="personalPhone" maxlength="32" size="32" value=""/></td>
+													</tr>
+													<tr>
+													  <td><label>个人邮箱</label><br/>
+														<input type="text" name="personalEmail" maxlength="64" size="32" value="" /></td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>工作电话</label><br/>
+														<input type="text" name="workPhone" maxlength="32" size="32" value=""/></td>
+													</tr>
+													<tr>
+													  <td><label>企业邮箱</label><br/>
+														<input type="text" name="workEmail" maxlength="64" size="32" value="" /></td>
+													</tr>
+													<tr>
+													  <td><label>传真</label><br/>
+														<input type="text" name="fax" maxlength="64" size="32" value="" /></td>
+													</tr>
+													<tr>
+													  <td><label>现任公司</label><br/>
+														<input type="text" name="curOrg" maxlength="64" size="32" value="" disabled="disabled"/></td>
+													</tr>
+													<tr>
+													  <td><label>现任部门</label><br/>
+														<input type="text" name="curDep" maxlength="64" size="32" value="" disabled="disabled"/></td>
+													</tr>
+													<tr>
+													  <td><label>现任职位</label><br/>
+														<input type="text" name="curTitle" maxlength="64" size="32" value="" disabled="disabled"/></td>
+													</tr>
+												  </tbody>
+											</table>
+										  	<table>
+										  		<tr>
+													<td colspan="3" align="right"><input type="submit" value="保存" class="primary_button_flat j_primary_button_flat" /></td>
+												</tr>
+										  	</table>
+										  </fieldset>
+										</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								  	  </tr>
+								  	  <tr>
+								  	  	<td valign="top">
+										  <fieldset><legend>用户信息</legend>
+										  <table width="100%" border="0" cellspacing="4" cellpadding="0">
+											<tbody>
+											<tr>
+											  <td><label>用户ID</label><br/>
+												<input type="text" name="userIdentifier" maxlength="64" size="32" value="" disabled="disabled"/></td>
+											</tr>
+											<tr>
+											  <td><label>密码</label><br/>
+												<input type="password" name="password" maxlength="64" size="32" value="" disabled="disabled"/></td>
+											</tr>
+										  </tbody></table>
+										  </fieldset>
+										</td>
+								  	  </tr>
+									  <tr>
+									  	<td valign="top">
+										  <fieldset><legend>工作经历</legend>
+										  	<div style="clear: both;margin-top:10px;">
+												<div id="add-employer-section" class="container">
+													<div id="error-message" class="yellowbox">
+														<span class="common_sprites error_ticker"></span>
+														<span class="text"></span>
+													</div>
+													<form action="#" method="post" name="userEmploymentForm" id="PrevEmploymentForm">
+														<div class="row">
+															<div class="sixcol">
+																<div class="container">
+																	<div class="threecol">
+																		<label>机构<span class="red reqdField">*</span>:</label>
+																	</div>
+																	<div class="eightcol last">
+																		<input type="hidden" value="" name="companyId" id="compId"  />
+																		<input tabindex="1" name="companyName" id="companyName" type="text" autocomplete="off" value="" placeholder="e.g. Oracle" class="acEmpInput" required="required" />
+																	</div>
+																</div>
+															</div>
+															<div class="sixcol last">
+																<div class="container">
+																	<div class="fourcol">
+																		<label>部门/分公司:</label>
+																	</div>
+																	<select name="department">
+																	</select>
+																</div>
+															</div>
+															<div class="sixcol">
+																<div class="container">
+																	<div class="threecol">
+																		<label>职务:</label>
+																	</div>
+																	<select name="title" data-required>
+																	</select>
+																</div>
+															</div>
+														</div>
+														<div id="duration" class="row">
+															<div class="sixcol">
+																<div class="container">
+																	<div class="threecol">
+																		<label>在职时间<span class="red reqdField" style="float:none;">*</span>:</label>
+																	</div>
+																	<div class="tencol last" style="width:100%;">
+																		<input id="workStartDate" name="workStartDate" onClick="WdatePicker()" style="float:left;" required="required" />
+																		<span> 到 </span>
+																		<input id="workEndDate" name="workEndDate" onClick="WdatePicker()" style="float:left;" required="required" />
+																		<div class="clear"></div>
+																	</div>
+																</div>
+															</div>
+															<div class="sixcol last">
+																&nbsp;
+															</div>
+														</div>
+														<div class="row">
+															<div class="twelvecol last controls">
+																<div class="tertiaryTab">
+																	<div class="bottomShadow"></div>
+																</div>
+																<div style="float:right;text-align:center;margin-left:20px;color:red;"><span class="work_err_msg"></span></div>
+																<input type="submit" value="添加" tabindex="7" id="addWorkHistory" class="secondary_button_flat" />
+															</div>
+														</div>
+													</form>
+												</div>
+													<h3 class="grid-header" style="display: block;">
+														工作经历</h3>
+													<div id="grid-container" style="display: block;">
+														<div class="grid">	
+															<div class="search"></div>	
+															<div class="header">		
+																<div class="row">	
+																	<div class="cell companyName	asc" style="width:20%;">						
+																		<a href="javascript:void(0);" class="text">机构 </a>  					
+																	</div>							
+																	<div class="cell department asc" style="width:20%;">						
+																		<a href="javascript:void(0);" class="text">部门/分公司 </a>  					
+																	</div>							
+																	<div class="cell title asc" style="width:20%;">						
+																		<a href="javascript:void(0);" class="text">职位 </a>  					
+																	</div>	
+																	<div class="cell duration asc" style="width:20%;">						
+																		<a href="javascript:void(0);" class="text">任职时间 </a>  					
+																	</div>							
+																	<div name="delete" class="cell delete center asc" style="width:20%;">						
+																		<a href="javascript:void(0);" class="text">删除 </a>  					
+																	</div>						
+																	<div class="clear"></div>		
+																</div>
+															</div>	
+															<div class="pages" id="work_history">
+																<div class="page" id="work_history_list">					
+																</div>
+															</div>	
+															<div class="pagination"> 
+																<div class="numbers">  </div>
+															</div> 
+															<div class="floater" style="display: none;"></div>	
+															<img class="floaterImg" alt="" src="https://insideview.exceda.com/iv/common/static/styles/images/theme/original/LoadingAnimation_4612bf996fc74dc3b790e5c42065fca0.gif" style="display: none;" />
+														</div>
+													</div>
+												</div>
+										  </fieldset>
+										  <fieldset><legend>教育经历</legend>
+										  	<div style="clear: both;margin-top:10px;">
+												<div id="add-employer-section" class="container">
+													<div id="error-message" class="yellowbox">
+														<span class="common_sprites error_ticker"></span>
+														<span class="text"></span>
+													</div>
+													<form action="#" method="post">
+														<div class="row">
+															<div class="sixcol">
+																<div class="container" id="schoolNameContainer">
+																	<div class="threecol">
+																		<label>学校<span class="red reqdField">*</span>:</label>
+																	</div>
+																	<div class="eightcol last ui-widget">
+																		<input type="hidden" value="" name="schoolId" id="schoolId"  />
+																		<input tabindex="1" name="schoolName" id="schoolName" type="text" value="" class="acEmpInput" />
+																	</div>
+																</div>
+															</div>
+															<div class="sixcol">
+																<div class="container">
+																	<div class="threecol">
+																		<label>学历:</label>
+																	</div>
+																	<select name="degree" data-required>
+																	</select>
+																</div>
+															</div>
+														</div>
+														<div id="duration" class="row">
+															<div class="sixcol">
+																<div class="container">
+																	<div class="threecol">
+																		<label>起始时间<span class="red reqdField" style="float:none;">*</span>:</label>
+																	</div>
+																	<div class="tencol last" style="width:100%;">
+																		<input id="schoolStartDate" name="schoolStartDate" onClick="WdatePicker()" style="float:left;" required="required" />
+																		<span> 到 </span>
+																		<input id="schoolEndDate" name="schoolEndDate" onClick="WdatePicker()" style="float:left;" required="required" />
+																		<div class="clear"></div>
+																	</div>
+																</div>
+															</div>
+															<div class="sixcol last">
+																&nbsp;
+															</div>
+														</div>
+														<div class="row">
+															<div class="twelvecol last controls">
+																<div class="tertiaryTab">
+																	<div class="bottomShadow"></div>
+																</div>
+																<div style="float:right;text-align:center;margin-left:20px;color:red;"><span class="education_err_msg"></span></div>
+																<input type="button" value="添加" tabindex="7" id="addEducationHistory" class="secondary_button_flat" />
+															</div>
+														</div>
+													</form>
+												</div>
+													<h3 class="grid-header" style="display: block;">
+														教育经历</h3>
+													<div id="grid-container" style="display: block;">
+														<div class="grid">	
+															<div class="search"></div>	
+															<div class="header">		
+																<div class="row">	
+																	<div class="cell schoolName asc" style="width:25%;">						
+																		<a href="javascript:void(0);" class="text">学校 </a>  					
+																	</div>							
+																	<div class="cell degree asc" style="width:25%;">						
+																		<a href="javascript:void(0);" class="text">学历</a>  					
+																	</div>							
+																	<div class="cell duration asc" style="width:25%;">						
+																		<a href="javascript:void(0);" class="text">起始时间 </a>  					
+																	</div>							
+																	<div name="delete" class="cell delete center asc" style="width:25%;">						
+																		<a href="javascript:void(0);" class="text">删除 </a>  					
+																	</div>						
+																	<div class="clear"></div>		
+																</div>
+															</div>	
+															<div class="pages" id="education_history">
+																<div class="page" id="education_history_list">					
+																</div>
+															</div>	
+															<div class="pagination"> 
+																<div class="numbers">  </div>
+															</div> 
+															<div class="floater" style="display: none;"></div>	
+															<img class="floaterImg" alt="" src="https://insideview.exceda.com/iv/common/static/styles/images/theme/original/LoadingAnimation_4612bf996fc74dc3b790e5c42065fca0.gif" style="display: none;" />
+														</div>
+													</div>
+												</div>
+										  </fieldset>
+										</td>
+									  </tr>
+								  </tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>    
+	</div> 
+	<script id="workHistory-template" type="text/template">
+     <div class="cell companyName" style="width:20%;">					
+		<div class="text">													
+			<a class="company-hover bluefont" href="#"><%=orgName%></a>											
+		</div>				
+	</div>
+	<div class="cell department" style="width:20%;">					
+		<div class="text"><%=deptName%></div>				
+	</div>						
+	<div class="cell title" style="width:20%;">					
+		<div class="text"><%=jobPositionName%></div>				
+	</div>							
+	<div class="cell duration" style="width:20%;">					
+		<div class="text"><%=startDate%>--<%=endDate%></div>				
+	</div>							
+	<div class="cell delete center" style="width:20%;">					
+		<div class="text">													
+			<a class="deleteIcon" href="javascript:void(0);">
+				<img src="/css/images/hide-row.png" />
+			</a>											
+		</div>				
+	</div>							
+	<div class="clear"></div>
+	<div class="extended"></div>
+	</script>   
+	<script id="educationHistory-template" type="text/template">
+     <div class="cell schoolName" style="width:25%;">					
+		<div class="text">													
+			<a class="company-hover bluefont" href="#"><%=school%></a>											
+		</div>				
+	</div>
+	<div class="cell degree" style="width:25%;">					
+		<div class="text"><%=degree%></div>				
+	</div>						
+	<div class="cell duration" style="width:25%;">					
+		<div class="text"><%=startDate%>--<%=endDate%></div>				
+	</div>							
+	<div class="cell delete center" style="width:25%;">					
+		<div class="text">													
+			<a class="deleteIcon" href="javascript:void(0);">
+				<img src="/css/images/hide-row.png" />
+			</a>											
+		</div>				
+	</div>							
+	<div class="clear"></div>
+	<div class="extended"></div>
+	</script>   
+</body>
+</html>

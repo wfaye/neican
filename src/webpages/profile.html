@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+	content="application/x-www-form-urlencoded; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui-1.11.1.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyBuzzCombo_45a90ca75d118951bb8d2b37aa3f2775.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/css_common_new_242028a5d41bdafa8f2036070a4c0ef8.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyPeopleCombo_ebac1e9698523b8a6ebf5ebee54a3a06.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyOverview_2d7ad1720c973c60869a72b3cf11e94b.css" />
+<link rel="stylesheet" type="text/css" href="css/mainpage/companyOverview_e59380c6dcf832cc0bc8a0e24c5398c3.css" />
+<link href="css/mainpage/listBuildCombo.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/watchlistCombo.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/personCombo_d700f16aaecffb717ad032042c22110c.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/jpaginate.css" rel="stylesheet" type="text/css" />
+<link href="css/mainpage/mystyle.css" rel="stylesheet" type="text/css" />
+<link href="css/profile.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/json2.min.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/backbone.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/ba-linkify.js"></script>
+<script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="js/require-withcomments.js"></script>
+<script src="js/tag-it.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/popup.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/mainpage/tabmenu.js"></script>
+<script type="text/javascript" src="js/profile.js"></script>
+<script type="text/javascript">
+	$('form').validate();
+</script>
+<title>脉拓 -- 脉入云端 拓展商机</title>
+</head>
+
+<body>
+    <div class='banner'></div>
+    <div id="wrapper">
+		<div id="header">
+			<div class="logo">
+				<img src="image/logo.png" />
+			</div>
+			<div class="search_box">
+				<!--  <form class="search_form" method="post" action="">
+					<input id="searchbox" type="text" class="s" name="searchbox" value="" placeholder="搜索" style="border:0;"/> 
+					<input type="image" src="image/search_bt.png" width="28" height="20" class="go" alt="Search" title="Search" />
+					<input type="submit" style="display:none;" />
+				</form>-->
+				<input id="searchbox" type="text" class="s" name="searchbox" value="" placeholder="搜索" style="border:0;"/> 
+					<input type="image" src="image/search_bt.png" width="28" height="20" class="go" alt="Search" title="Search" />
+			</div>
+			<div class="top_menu">
+				<ul>
+					<li><a href="#"><img src="image/speech.png" /></a></li>
+					<li class="menuDiv"></li>
+					<li><a href="/profile.html">个人资料</a></li>
+					<li class="menuDiv"></li>
+					<li><a href="#">首页</a></li>
+					<li class="menuDiv"></li>
+					<li><a href="#"><img src="image/setting.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="maincontent">
+			<div class="col2">
+				<div id="menu_box">
+					<div class="mainmenu">
+						<ul>
+							<li><a id="homePage" class="menu_tab" href="/mainpage.html">首页</a></li>
+							<li><a class="menu_tab" href="#" >动态</a></li>
+							<li><a class="menu_tab" id="watchlistPage" href="#">关注</a></li>
+							<li><a class="menu_tab" id="searchPage" href="javascript:void(0);">查询</a></li>
+							<li><a class="menu_tab" href="#">人脉</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="outerGreyBox">
+					<div class="mainGreyBox">
+						<h1>个人资料</h1>
+						<div class="box">
+							<form name="userForm" method="post">
+								<br/>
+								<table width="100%" border="0" cellpadding="0" cellspacing="0">
+								  <tbody>
+									  <tr>
+										<td valign="top">
+										  <fieldset>
+										  	<legend>联系信息</legend>
+											  <table border="0" cellspacing="10" cellpadding="0">
+												<tbody>
+													<tr>
+													  <td colspan="2"><em>*</em><label>姓名</label><br/>
+														<input type="text" name="name" maxlength="32" size="16" value="" data-required/></td>
+													</tr>
+													 <tr><td colspan="2"><em>*</em><label>公司名</label><br/>
+														<input type="text" name="companyName" maxlength="128" size="36" value="" data-required/></td>
+													</tr>
+													<tr>
+													  <td colspan="2"><em>*</em><label>行业</label><br/>
+														<select name="department" data-required>
+														</select>
+														<input type="hidden" name="selfDefDepartment" maxlength="128" style="display:none;color:gray;" size="36" value="请填写您所在的行业" data-required/>
+														</td>
+													</tr>
+													<tr>
+													  <td colspan="2"><em>*</em><label>职位</label><br/>
+														<select name="title" data-required>
+														</select>
+														<input type="hidden" name="selfDefTitle" maxlength="128" style="display:none;color:gray;" size="36" value="请填写您的职位" data-required/>
+														</td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>地址</label><br/>
+														<input type="text" name="address" maxlength="128" size="36" value="" /></td>
+													</tr>
+													<tr>
+													  <td colspan="2"><label>手机</label><br/>
+															<input type="text" name="phone" maxlength="32" size="32" value=""/></td>
+														</tr>
+												  </tbody>
+											</table>
+										  </fieldset>
+										</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td valign="top">
+										  <fieldset><legend>用户信息</legend>
+										  <table width="100%" border="0" cellspacing="4" cellpadding="0">
+											<tbody>
+											<tr>
+											  <td><label>个人邮箱</label><br/>
+												<input type="text" name="personalEmail" maxlength="64" size="32" value="" /></td>
+											</tr>
+										  </tbody></table>
+										  </fieldset>
+										</td>
+								  </tr>
+									  <tr>
+									  	<td colspan="3">
+									  		&nbsp;
+									  	</td>
+									  </tr>
+									  <tr>
+										<td colspan="3" align="right"><input type="submit" value="保存" class="primary_button_flat j_primary_button_flat" /></td>
+									  </tr>
+								  </tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>    
+	</div> 
+	<div id="user_choice" title="下一步">
+	  <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>是否继续填写详细信息?</p>
+	</div>   
+</body>
+</html>
